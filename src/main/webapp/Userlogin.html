@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>User Login | HMS</title>
+<link rel="icon" type="image/png" href="CSS/HMSTITLE.jpg">
+<style type="text/css">
+    body {
+        margin: 0;
+/*        background-color: #734f96 ;*/
+        background-image: linear-gradient(to right, #9896f0, #fbc8d5);
+    }
+    
+
+    * {
+        box-sizing: border-box;
+    }
+
+    label{
+        font-size: 20px;
+        color: midnightblue;
+        font-weight: 200;
+        font-family: 'Copperplate Gothic';
+    }
+
+    input[type=text], input[type=password] {   
+        width: 100%;   
+        margin: 8px 0;  
+        padding: 12px 20px;   
+        display: inline-block;   
+        border: 2px solid #808080;   
+        box-sizing: border-box;
+        outline: none;   
+        border-radius: 5px;
+    }  
+
+     input[type=password]:focus{
+        border: 2px solid #317AC7;
+    }
+    input[type=text]:focus{
+        border: 2px solid #317AC7;
+    }
+
+    form {   
+        width: 500px;
+        box-shadow: 0px 0px 20px 0px #808080;
+        border-radius: 5%;
+        margin-right: auto;
+        margin-left: auto;
+        
+    }   
+
+    button {   
+        background-color: #168AAD;   
+        width: 100px;  
+        color: white;   
+        padding: 10px 12px;   
+        margin: 10px 0px;   
+        border: none;   
+        cursor: pointer;   
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+        display: block;
+        border-radius: 5px;
+        cursor: pointer;
+        transition-duration: 0.34s;
+    }
+
+    button:hover{
+        background-color: #34a0a4;
+        width: 150px;
+        border-radius: 50px;
+    }
+
+
+
+    .inner-left{
+/*      background-color: midnightblue;*/
+        padding: 25px;
+    }
+
+    
+
+    .leftdiv p {
+        color: midnightblue;
+        text-align: center;
+        font-size: 20px;
+        font-family: 'Copperplate Gothic';
+        font-weight: bold;
+        margin-top: 5%;
+    }
+
+
+    
+
+    ::selection{
+        color: white;
+        background-color: #168AAD;
+    }
+
+
+    @media screen and (max-width:800px) {
+  .column {
+    width: 100%;
+  }
+
+  form {
+    width: 500px;
+  }
+
+}
+
+    ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+/*  background-color: #a000c8;*/
+    background-image: linear-gradient(to right, #fdfcfb, #fbc8d5);
+}
+
+li {
+  float: left;
+
+}
+
+li a{
+    font-size: 18px;
+    font-weight: 300;
+  display: inline-block;
+  color: midnightblue;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+  font-family: 'Copperplate Gothic';
+  transition: 0.3s ease;
+  border-radius: 5px;
+}
+
+li a:hover {
+  background-color: lavender;
+  color: black;
+}
+
+.header {
+      background-color: #9896f0;
+      text-align: center;
+      padding: 10px 0px;
+      height: auto;
+      margin-top: 0px;
+    }
+
+   
+
+    .header p{
+      margin: 0;
+      font-weight: 1000;
+      font-size: 20px;
+      font-family: 'Copperplate Gothic';
+      color: white;
+    }
+
+    .rightdiv h3{
+        text-align: center;
+        margin-top: 2%;
+        font-family: 'Copperplate Gothic';
+    }
+
+    .rightdiv h3 a{
+        text-decoration: none;
+        font-family: 'Copperplate Gothic';
+        padding: 0px 2px;
+        color: #317AC7;
+        cursor: pointer;
+        transition: 0.34s ease;
+    }
+
+    .rightdiv h3 a:hover {
+        text-decoration: underline;
+        padding: 0px 10px;
+        color: midnightblue;
+    }
+</style>
+
+<script type="text/javascript">
+function myFunction() {
+      var x = document.getElementById("myInput");
+      if (x.type === "password") {
+        x.type = "text";
+      } else {
+        x.type = "password";
+      }
+    }
+</script>
+</head>
+<body>
+    <div class="header">
+        <p>Welcome To Mani Hospitals</p>
+    </div>
+    <div class="topnav">
+        <ul>
+            <li style="margin-left: 0.5px;"><a href="HMS.jsp">Home</a></li>
+            <li><a href="#">Contact Us</a></li>
+            
+        </ul>
+    </div>
+
+    <div class="row">
+        <div class="column"> 
+            
+            <div class="leftdiv">
+             <p>Login to hospital user</p>
+        
+        <form action="UserValidateServlet" class="form" method="post">
+                      
+            <div class="inner-left">
+                <label for="user id">User Id:</label>
+                <input type="text" name="userid" required placeholder="Enter your id" maxlength="5">
+                <label for="user password">Password:</label>
+                <input type="password" name="password" required placeholder="Enter your password" id="myInput">
+                <input type="checkbox" onclick="myFunction()">Show Password
+                <button type="submit">Login</button>
+            </div>
+        </form>
+    </div>
+
+    <div class="rightdiv">
+        
+        
+
+            <h3>New User?&nbsp;<a href="userregister.jsp">Sign up</a></h3>
+    </div>
+        </div>
+    </div>
+</body>
+</html>
