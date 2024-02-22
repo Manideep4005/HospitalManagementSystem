@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link href="CSS/dropdown.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+
+	body {
+	
+		margin:0;
+	}
+
+	.header {
+    	background-color: red;
+    	height: 6vh;
+    }
+    
+	
+    .header a{
+    	color: white;
+    	display: inline-block;
+    	margin-top: 12px;
+    	margin-left: 50px;
+    	cursor: pointer;
+    	transition: 0.4s ease;
+    }
+
+    .header a:hover{
+    	color: red;
+    }
+
+    .header p{
+    	font-family: 'Copperplate Gothic';
+    	color: #02adf7;
+    	text-align: center;
+    	display: inline-block;
+    	margin-left: 27%;
+    }
+</style>
+</head>
+<body>
+	<div class="header">
+			<a>HOME</a>&nbsp;&nbsp;
+			<a>CONTACT US</a>
+			<p>HOSPITAL MANAGEMENT </p>
+		</div>
+		
+		<div class="dropdown" >
+				<!-- <span><img src="user.png"></span> -->
+				<button class="dropbtn">
+				<span class="button-icon"><img src="CSS/user.png"></span><span class="button-text">MANIDEEP KUMAR NAKKA</span>
+				</button>
+				<div class="dropdown-content">
+					<a href="#">Link1</a>
+					<a href="#">Link2</a>
+					<a href="#">Link3</a>
+					<a href="#">Link1</a>
+					<a href="#">Link2</a>
+					<a href="#">Link3</a>
+				</div>
+			</div>
+			
+			
+			<form action="zzzzzzzz.jsp">
+				<input type="date" name="date" value="yyyy-mm-dd" required>
+				<button value="submit">click</button>
+			</form>
+</body>
+</html>
