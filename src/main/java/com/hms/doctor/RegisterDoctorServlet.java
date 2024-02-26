@@ -89,7 +89,7 @@ public class RegisterDoctorServlet extends HttpServlet {
 			session.setAttribute("doctorEmail", email);
 			
 			if (n > 0) {
-				String from = "systems2hms@gmail.com";
+				String from = "Sender Email";
 				String subject = "Thank you for registering Dr. " + dName +" at Hospital Management System!";
 				String to = session.getAttribute("adminEmail").toString();
 				String adminName = (String)session.getAttribute("adminName");
@@ -106,7 +106,7 @@ public class RegisterDoctorServlet extends HttpServlet {
 					response.sendRedirect("doctorregister.jsp");
 				}
 			
-				System.out.println("New Doctor Registered Id:- " + doctorId + "\nAdmin Name :- " + dName + "\n\n");
+				System.out.println("New Doctor Registered Id:- " + doctorId + "\nDoctor Name :- " + dName + "\n\n");
 				
 				
 			}
