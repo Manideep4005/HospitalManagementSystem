@@ -8,7 +8,7 @@ public class MySqlConnection {
 		Connection con = null;
 		
 		try {
-			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/hms", "root", "root");
+			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/Database Name", "userName", "Password");
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
