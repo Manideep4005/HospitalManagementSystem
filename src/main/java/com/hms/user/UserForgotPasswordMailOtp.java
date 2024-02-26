@@ -39,7 +39,7 @@ public class UserForgotPasswordMailOtp extends HttpServlet {
 				Random random = new Random();
 				Integer otp = random.nextInt(999999 - 1 + 1) + 1;
 				
-				String from = "systems2hms@gmail.com";
+				String from = "Sender Email";
 				String subject = "Reset your password for your user account";
 				String to = userEmail;
 
