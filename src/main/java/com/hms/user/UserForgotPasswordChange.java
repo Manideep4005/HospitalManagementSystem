@@ -47,7 +47,7 @@ public class UserForgotPasswordChange extends HttpServlet {
 				int n = pstmt.executeUpdate();
 
 				if (n > 0) {
-					String from = "systems2hms@gmail.com";
+					String from = "Sender Email";
 					String subject = "Password reset was successfull.";
 					String to = userEmail;
 
