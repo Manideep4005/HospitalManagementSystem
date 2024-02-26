@@ -71,7 +71,7 @@ public class AdminRegisterServlet extends HttpServlet {
 			session.setAttribute("adminGeneratedId", new Integer(adminId));
 			
 			if (n > 0) {
-				String from = "systems2hms@gmail.com";
+				String from = "Sender Email";
 				String subject = "Thank you for registering as admin at Hospital Management System!";
 				
 				String adminEmailName = adminfName +" " + adminlName;
