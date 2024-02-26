@@ -488,7 +488,7 @@ public class EmailSender {
 		try {
 			Message message = new MimeMessage(session);
 			message.setRecipient(Message.RecipientType.TO, new InternetAddress(to));
-			message.setFrom(new InternetAddress("systems2hms@gmail.com", "no-replay@Hospital Management System"));
+			message.setFrom(new InternetAddress("Sender Email", "no-replay@Hospital Management System"));
 			message.setSubject("Reset password for your Admin Account");
 			message.setContent("<!DOCTYPE html>\r\n"
 					+ "<html lang=\"en\">\r\n"
@@ -579,7 +579,7 @@ public class EmailSender {
 		try {
 			Message message = new MimeMessage(session);
 			message.setRecipient(Message.RecipientType.TO, new InternetAddress(to));
-			message.setFrom(new InternetAddress("systems2hms@gmail.com", "no-replay@Hospital Management System"));
+			message.setFrom(new InternetAddress("Sender Email", "no-replay@Hospital Management System"));
 			message.setSubject("password reset was successfull");
 			message.setContent("<!DOCTYPE html>\r\n"
 					+ "<html lang=\"en\">\r\n"
