@@ -87,7 +87,7 @@ public class UserRegisterServlet extends HttpServlet {
 				
 				/* Setting a Email with user id */
 				
-				String from = "systems2hms@gmail.com";
+				String from = "Sender Email";
 				String subject = "Thank you for registering as user at Hospital Management System!";
 				
 				String userName = userfname +" " + userlname;
