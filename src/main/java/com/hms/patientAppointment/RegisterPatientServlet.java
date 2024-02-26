@@ -120,7 +120,7 @@ public class RegisterPatientServlet extends HttpServlet {
 			if (n > 0 && n2 > 0) {
 				EmailSender mail = new EmailSender();
 				
-				String from = "systems2hms@gmail.com";
+				String from = "Sender Email";
 				String subject = "Booking confirmation for Patient " + patientName;
 				
 				boolean b = mail.appointmentSendEmail(userEmail, from, subject, patientId, patientName, userName);
