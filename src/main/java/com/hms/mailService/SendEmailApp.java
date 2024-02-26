@@ -4,10 +4,10 @@ public class SendEmailApp {
 	public static void main(String[] args) {
 		EmailSender emailSender = new EmailSender();
 		
-		String to = "nmd.mani@gmail.com";
-		String from = "systems2hms@gmail.com";
+		String to = "recipient mail";
+		String from = "sender mail";
 		String subject = "This is a testing mail using HMS";
-		boolean b = emailSender.userSendEmail(to, from, subject, 12345, "Manideep Nakka", "user");
+		boolean b = emailSender.userSendEmail(to, from, subject, 12345, "something", "something");
 		
 		if (b) {
 			System.out.println("Email Sent Successfully");
