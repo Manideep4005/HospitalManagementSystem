@@ -26,8 +26,8 @@ public class EmailSender {
 		properties.put("mail.smtp.port", "587");
 		properties.put("mail.smtp.host", "smtp.gmail.com");
 
-		final String mailUserName = "systems2hms";
-		final String mailPassword = "raci ycsi wean vezu";
+		final String mailUserName = "Your mail UserName";
+		final String mailPassword = "Your Mail Password";
 
 		Session session = Session.getInstance(properties, new Authenticator() {
 
@@ -93,8 +93,8 @@ public class EmailSender {
 		properties.put("mail.smtp.port", "587");
 		properties.put("mail.smtp.host", "smtp.gmail.com");
 
-		final String mailUserName = "systems2hms";
-		final String mailPassword = "raci ycsi wean vezu";
+		final String mailUserName = "Your mail UserName";
+		final String mailPassword = "Your Mail Password";
 
 		Session session = Session.getInstance(properties, new Authenticator() {
 
@@ -160,8 +160,8 @@ public class EmailSender {
 		properties.put("mail.smtp.port", "587");
 		properties.put("mail.smtp.host", "smtp.gmail.com");
 
-		final String mailUserName = "systems2hms";
-		final String mailPassword = "raci ycsi wean vezu";
+		final String mailUserName = "Your mail UserName";
+		final String mailPassword = "Your Mail Password";
 
 		Session session = Session.getInstance(properties, new Authenticator() {
 
@@ -228,9 +228,9 @@ public class EmailSender {
 		properties.put("mail.smtp.port", "587");
 		properties.put("mail.smtp.host", "smtp.gmail.com");
 
-		final String mailUserName = "systems2hms";
-		final String mailPassword = "raci ycsi wean vezu";
-
+		final String mailUserName = "Your mail UserName";
+		final String mailPassword = "Your Mail Password";
+		
 		Session session = Session.getInstance(properties, new Authenticator() {
 
 			@Override
@@ -292,8 +292,8 @@ public class EmailSender {
 		properties.put("mail.smtp.port", "587");
 		properties.put("mail.smtp.host", "smtp.gmail.com");
 
-		final String mailUserName = "systems2hms";
-		final String mailPassword = "raci ycsi wean vezu";
+		final String mailUserName = "Your mail UserName";
+		final String mailPassword = "Your Mail Password";
 
 		Session session = Session.getInstance(properties, new Authenticator() {
 
@@ -381,8 +381,8 @@ public class EmailSender {
 		properties.put("mail.smtp.port", "587");
 		properties.put("mail.smtp.host", "smtp.gmail.com");
 
-		final String mailUserName = "systems2hms";
-		final String mailPassword = "raci ycsi wean vezu";
+		final String mailUserName = "Your mail UserName";
+		final String mailPassword = "Your Mail Password";
 
 		Session session = Session.getInstance(properties, new Authenticator() {
 
@@ -472,9 +472,9 @@ public class EmailSender {
 		properties.put("mail.smtp.port", "587");
 		properties.put("mail.smtp.host", "smtp.gmail.com");
 
-		final String mailUserName = "systems2hms";
-		final String mailPassword = "raci ycsi wean vezu";
-
+		final String mailUserName = "Your mail UserName";
+		final String mailPassword = "Your Mail Password";
+		
 		Session session = Session.getInstance(properties, new Authenticator() {
 
 			@Override
@@ -562,8 +562,8 @@ public class EmailSender {
 		properties.put("mail.smtp.port", "587");
 		properties.put("mail.smtp.host", "smtp.gmail.com");
 
-		final String mailUserName = "systems2hms";
-		final String mailPassword = "raci ycsi wean vezu";
+		final String mailUserName = "Your mail UserName";
+		final String mailPassword = "Your Mail Password";
 
 		Session session = Session.getInstance(properties, new Authenticator() {
 
@@ -642,7 +642,8 @@ public class EmailSender {
 		return flag;
 	}
 	
-	
+
+	// to get yout system ipv4 address 
 	public static String iAddress() throws UnknownHostException {
 		InetAddress ip;
 
