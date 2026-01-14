@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>HospitalManagementSystem</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+<<<<<<< HEAD
+    <welcome-file>Userlogin.jsp</welcome-file>
+=======
+    <welcome-file>HMS.jsp</welcome-file>
+>>>>>>> e06896c5d3b881a587992830e685134132707732
+    <welcome-file>default.htm</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>userlogout</servlet-name>
+    <servlet-class>com.hms.user.LogoutUserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>uservalidate</servlet-name>
+    <servlet-class>com.hms.user.UserValidateServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>adminlogout</servlet-name>
+    <servlet-class>com.hms.admin.LogoutAdminServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>doctorlogout</servlet-name>
+    <servlet-class>com.hms.doctor.LogoutDoctorServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>adminalldoctor</servlet-name>
+    <servlet-class>com.hms.admin.DisplayAllDoctorsServlet </servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>userlogout</servlet-name>
+    <url-pattern>/logoutUserServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>uservalidate</servlet-name>
+    <url-pattern>/userValidateServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>adminlogout</servlet-name>
+    <url-pattern>/logoutAdminServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>doctorlogout</servlet-name>
+    <url-pattern>/logoutDoctorServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>adminalldoctor</servlet-name>
+    <url-pattern>/AdminDisplayAllDoctors</url-pattern>
+  </servlet-mapping>
+</web-app>

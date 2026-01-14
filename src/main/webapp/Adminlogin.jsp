@@ -1,0 +1,436 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+
+<%
+
+%>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Login | HMS</title>
+<meta charset="utf-8" />
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<link rel="icon" type="image/png" href="CSS/HMSTITLE.jpg" />
+
+<style>
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+}
+
+body {
+	background: white;
+}
+
+.header {
+<<<<<<< HEAD
+	padding: 10px;
+	box-shadow: 0 0 1px 1px gainsboro;
+}
+
+.header > img {
+ 	max-width: 150px;
+ 	margin-left: 20px;
+}
+
+.container {
+	top: 45%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+	max-width: 500px;
+	box-shadow: 0 0 0px 1px gainsboro;
+	padding: 25px;
+	border-radius: 5px;
+}
+
+ 
+
+ 
+=======
+	padding: 18px;
+	box-shadow: 0 0 10px 5px #F6D7AF;
+}
+
+.header p {
+	font-size: 26px;
+	text-align: center;
+	font-weight: 900;
+	color: black;
+}
+
+.container {
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+	width: 500px;
+}
+
+.f {
+	width: 500px;
+	box-shadow: 0 0 10px 2px #F6D7AF;
+	border: 2px solid #F6D7AF;
+	border-radius: 10px;
+	transition-duration: 1s;
+	margin: auto;
+}
+
+
+
+.container .login_header {
+	text-align: center;
+	color: black;
+	font-weight: 900;
+}
+
+.container .form {
+	margin-top: 10px;
+	width: 480px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+	padding: 20px;
+}
+
+.container .form label {
+	display: block;
+	margin: 8px 0;
+	padding: 2px 0px;
+	font-size: 18px;
+	font-weight: 600;
+	color: black;
+}
+>>>>>>> e06896c5d3b881a587992830e685134132707732
+
+.container .form .input {
+	display: block;
+	margin: 15px 0;
+<<<<<<< HEAD
+	padding: 12px;
+=======
+	padding: 10px 8px;
+>>>>>>> e06896c5d3b881a587992830e685134132707732
+	width: 100%;
+	outline: none;
+	background-color: transparent;
+	border: 2px solid #CD8D7A;
+	border-radius: 5px;
+<<<<<<< HEAD
+	font-size: 15px;
+=======
+	font-size: 18px;
+>>>>>>> e06896c5d3b881a587992830e685134132707732
+	transition: 0.34s;
+	caret-color: #CD8D7A;
+}
+
+.form .input:focus {
+	border: 2px solid #fffff7;
+	box-shadow: 0 0 0 2px #CD8D7A;
+}
+
+.input::placeholder {
+<<<<<<< HEAD
+	font-size: 15px;
+=======
+	font-size: 18px;
+>>>>>>> e06896c5d3b881a587992830e685134132707732
+	opacity: 0.8;
+}
+
+.input:focus::placeholder {
+	opacity: 0.6;
+}
+
+.show {
+	color: black;
+	font-size: 15px;
+	cursor: pointer;
+	margin: 0 auto;
+	cursor: pointer;
+	transition-duration: .4s;
+}
+
+.login_btn {
+	display: block;
+	margin: 8px 0;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	border: none;
+	padding: 10px 8px;
+	font-size: 18px;
+	font-weight: 600;
+	cursor: pointer;
+	transition-duration: 0.4s;
+	border-radius: 3px;
+	border: 2px solid transparent;
+	background-color: #DF826C;
+	color: white;
+	font-weight: 600;
+}
+
+.login_btn:hover {
+	background-color: #e87256;
+	color: white;
+}
+
+.new_user {
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 400px;
+}
+
+.new_user .new_user_create p {
+	text-align: center;
+<<<<<<< HEAD
+	font-size: 16px;
+=======
+	font-size: 18px;
+	font-weight: 500;
+>>>>>>> e06896c5d3b881a587992830e685134132707732
+	margin: 15px 0;
+}
+
+.new_user .new_user_create .new_user_btn {
+	border: none;
+	background-color: transparent;
+<<<<<<< HEAD
+	font-size: 16px;
+=======
+	font-size: 18px;
+>>>>>>> e06896c5d3b881a587992830e685134132707732
+	cursor: pointer;
+	transition-duration: 0.4s;
+	color: #e87256;
+}
+
+.new_user .new_user_create .new_user_btn:hover {
+<<<<<<< HEAD
+	text-decoration: underline;
+=======
+	transform: scale(1.1);
+	padding-left: 5px;
+>>>>>>> e06896c5d3b881a587992830e685134132707732
+}
+
+
+
+@media screen and (max-width: 600px) {
+<<<<<<< HEAD
+	 
+	.new_user {
+		width: 300px;
+	}
+	
+	.header > img {
+ 	max-width: 150px;
+ 	margin-left: 2px;
+}
+ 
+=======
+	.container {
+		width: 320px;
+	}
+	.f {
+		width: 300px;
+	}
+	.container .form {
+		width: 280px;
+	}
+	.new_user {
+		width: 300px;
+	}
+	.header p {
+		font-size: 18px;
+	}
+>>>>>>> e06896c5d3b881a587992830e685134132707732
+}
+
+#forgot {
+	display: block;
+<<<<<<< HEAD
+	margin: 12px auto;
+	text-align: center;
+	text-decoration: none;
+	color: #DF826C;
+=======
+	margin: auto;
+	text-align: center;
+	text-decoration: none;
+	color: #DF826C;
+	font-weight: 600;
+>>>>>>> e06896c5d3b881a587992830e685134132707732
+	transition-duration: .4s;
+	width: 200px;
+}
+
+#forgot:hover {
+<<<<<<< HEAD
+	text-decoration: underline;
+=======
+	transform: scale(1.10);
+>>>>>>> e06896c5d3b881a587992830e685134132707732
+}
+
+.back {
+	width: 200px;
+	margin: 20px auto;
+}
+
+.back_btn {
+	display: block;
+	margin: auto;
+	width: 100%;
+	background: white;
+	padding: 10px;
+	font-size: 18px;
+	color: #df8263;
+	cursor: pointer;
+	transition-duration: .4s;
+	border: 2px solid #df8263;
+}
+
+.back_btn:hover {
+	background: #df8263;
+	color: white;
+}
+
+#mailSent, .error1 {
+	margin: 10px auto;
+	background: rgba(208, 240, 192, 1);
+	border: 1px solid green;
+	padding: 12px;
+	border-radius: 1px;
+	color: green;
+}
+
+#message, .error {
+	margin: 10px auto;
+	background: rgba(255, 127, 127, 0.7);
+	border: 1px solid rgba(255, 127, 127, 1);
+	padding: 12px;
+	border-radius: 1px;
+	color: red;
+}
+
+
+</style>
+</head>
+<body onload="document.querySelector('.form').reset()">
+	<div class="header">
+<<<<<<< HEAD
+		<img src="CSS/MANI_HOSPITAL.png">
+=======
+		<p class="intro">Hospital Management System</p>
+>>>>>>> e06896c5d3b881a587992830e685134132707732
+	</div>
+
+
+
+	<div class="container">
+		<div class="f">
+			<form action="AdminValidateServlet" method="post" class="form">
+				<c:if test="${adminLoginError != null }">
+
+
+					<div class="error">Invalid username / password</div>
+				</c:if>
+				<c:if test="${adminGeneratedId != null }">
+					<div class="error1">${adminGeneratedId}</div>
+				</c:if>
+<<<<<<< HEAD
+				<c:if test="${AdminAccountDelete != null }">
+					<div class="error1">${AdminAccountDelete}</div>
+				</c:if>
+=======
+>>>>>>> e06896c5d3b881a587992830e685134132707732
+				<c:if test="${adminPasswordChange != null }">
+					<div id="mailSent">${adminPasswordChange}</div>
+				</c:if>
+
+				<c:if test="${adminForgotPasswordChangeError != null }">
+					<div id="message">${adminForgotPasswordChangeError}</div>
+				</c:if>
+<<<<<<< HEAD
+				<input type="email"   placeholder="User Name or Email"
+					required class="input" name="adminid"  autocomplete="off" />
+				<input type="password" name="password" placeholder="Password"
+					required class="input" id="myInput" /> <!-- <span class="show"
+					onclick="showPassword()">Show password</span> -->
+=======
+				<input type="text" maxlength="5" placeholder="Enter Admin Id"
+					required class="input" name="adminid" pattern="[0-9]{5}"
+					oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1');" />
+				<input type="password" name="password" placeholder="Enter Password"
+					required class="input" id="myInput" /> <span class="show"
+					onclick="showPassword()">Show password</span>
+>>>>>>> e06896c5d3b881a587992830e685134132707732
+				<button type="submit" class="login_btn">Login</button>
+			</form>
+			<a href="admin-forgotpasswordotp.jsp" id="forgot">forgot
+				password?</a>
+
+			<div class="new_user">
+				<form action="adminregister.jsp" method="POST"
+					class="new_user_create">
+					<p>
+<<<<<<< HEAD
+						Don't have an account?
+=======
+						Don't have a account?
+>>>>>>> e06896c5d3b881a587992830e685134132707732
+						<button class="new_user_btn" type="submit">Create Account</button>
+					</p>
+				</form>
+			</div>
+		</div>
+
+
+<<<<<<< HEAD
+		<!--<div class="back">
+		 	<form action="HMS.jsp" method="POST">
+				<button class="back_btn" type="submit">Back Home</button>
+			</form>
+		</div>-->
+=======
+		<div class="back">
+			<form action="HMS.jsp" method="POST">
+				<button class="back_btn" type="submit">Back Home</button>
+			</form>
+		</div>
+>>>>>>> e06896c5d3b881a587992830e685134132707732
+	</div>
+
+	<!-- 
+        JavaScript Validations
+    -->
+	<script>
+		function showPassword() {
+			var x = document.getElementById("myInput");
+			if (x.type === "password") {
+				x.type = "text";
+				document.querySelector('.show').textContent = "Hide password";
+				document.querySelector('.show').style.color = "red";
+			} else {
+				x.type = "password";
+				document.querySelector('.show').textContent = "Show password";
+				document.querySelector('.show').style.color = "black";
+			}
+
+		}
+	</script>
+</body>
+</html>
+
+<%
+session.removeAttribute("userGeneratedId");
+session.removeAttribute("errorMessage");
+session.removeAttribute("userForgotPasswordChangeError");
+session.removeAttribute("userPasswordChange");
+%>
