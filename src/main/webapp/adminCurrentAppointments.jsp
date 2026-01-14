@@ -8,11 +8,9 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1" errorPage="error.jsp"%>
 <%@include file="adminSessionValidate.jsp"%>
-<<<<<<< HEAD
     <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 
  
-=======
 
 <%
 Date date = CurrentDate.getCurrnetDate();
@@ -33,7 +31,6 @@ ResultSet rs = stmt.executeQuery();
 SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yyyy");
 String currentDate = formatter.format(date);
 %>
->>>>>>> e06896c5d3b881a587992830e685134132707732
 
 
 <!DOCTYPE html>
@@ -45,7 +42,6 @@ String currentDate = formatter.format(date);
 <meta name="viewport"
 	content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-<<<<<<< HEAD
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 
 <style type="text/css">
@@ -288,7 +284,6 @@ body {
 
 
 .current form { 
-=======
 <style type="text/css">
 body {
 	margin: 0;
@@ -458,7 +453,6 @@ h1 {
 }
 
 .current form {
->>>>>>> e06896c5d3b881a587992830e685134132707732
 	margin-top: 1%;
 }
 
@@ -482,7 +476,6 @@ h1 {
 	border-color: orange;
 	text-decoration: none;
 }
-<<<<<<< HEAD
 
 
 .container {
@@ -641,7 +634,6 @@ h1 {
 	 		</c:otherwise>
 	 		</c:choose>
      </div>
-=======
 </style>
 </head>
 <body>
@@ -717,18 +709,14 @@ h1 {
 
 		</table>
 	</div>
->>>>>>> e06896c5d3b881a587992830e685134132707732
 
 	<div class="current">
 		<form action="adminAppointmentPage.jsp" method="post">
 			<button type="submit">Go Back</button>
 		</form>
 	</div>
-<<<<<<< HEAD
 	
 	
 		<script type="text/javascript" src="JS/script.js"></script>
-=======
->>>>>>> e06896c5d3b881a587992830e685134132707732
 </body>
 </html>

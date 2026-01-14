@@ -29,20 +29,17 @@ body {
 
 .header {
 	padding: 15px;
-<<<<<<< HEAD
 	box-shadow: 0 0 5px 1px gainsboro;
 }
 
 .header>img {
 	max-width: 150px;
 	margin-left: 10px;
-=======
 	box-shadow: 0 0 10px 1px gainsboro;
 }
 
 .header h2 {
 	text-align: center;
->>>>>>> e06896c5d3b881a587992830e685134132707732
 }
 
 .container {
@@ -89,11 +86,8 @@ body {
 	box-shadow: 0 0 0 2px #168aaa;
 }
 
-<<<<<<< HEAD
-=======
 
 
->>>>>>> e06896c5d3b881a587992830e685134132707732
 #login_user {
 	display: block;
 	margin: 20px 0;
@@ -126,14 +120,12 @@ body {
 }
 
 @media screen and (max-width: 600px) {
-<<<<<<< HEAD
 	.container {
 		top: 45%;
 	}
 	.container form {
 		width: 280px;
 	}
-=======
 	
 	.container {
 		top: 45%;
@@ -143,18 +135,14 @@ body {
 		width: 280px;
 	}
 	
->>>>>>> e06896c5d3b881a587992830e685134132707732
 	.header h2 {
 		font-size: 18px;
 	}
 }
 
-<<<<<<< HEAD
-=======
 
 
 
->>>>>>> e06896c5d3b881a587992830e685134132707732
 .button {
 	position: relative;
 	padding: 10px;
@@ -207,13 +195,10 @@ body {
 to {
 	transform: rotate(1turn);
 }
-<<<<<<< HEAD
 
 }
-=======
 }
 
->>>>>>> e06896c5d3b881a587992830e685134132707732
 #mailSent {
 	margin: 10px auto;
 	background: rgba(208, 240, 192, 1);
@@ -225,10 +210,7 @@ to {
 
 #message {
 	margin: 10px auto;
-<<<<<<< HEAD
-=======
 	
->>>>>>> e06896c5d3b881a587992830e685134132707732
 	background: rgba(255, 127, 127, 0.7);
 	border: 1px solid rgba(255, 127, 127, 1);
 	padding: 12px;
@@ -241,7 +223,6 @@ to {
 <body onload="document.querySelector('.f').reset();">
 
 	<div class="header">
-<<<<<<< HEAD
 		<img alt="" src="CSS/MANI_HOSPITAL.png">
 	</div>
 
@@ -251,7 +232,6 @@ to {
 
 			<p id="heading">Reset Password</p>
 
-=======
 		<h2>Hospital Management System</h2>
 	</div>
 
@@ -260,21 +240,17 @@ to {
 
 			<p id="heading">Reset Password</p>
 			
->>>>>>> e06896c5d3b881a587992830e685134132707732
 			<c:if test="${adminForgotOtpSentFail != null}">
 				<p id="message">${adminForgotOtpSentFail }</p>
 			</c:if>
 
-<<<<<<< HEAD
 			<input type="email" 	id="country_code" name="adminId" required
 				placeholder="Email">
-=======
 			<input type="text"
 				inputmode="numeric" id="country_code" name="adminId"
 				pattern="[0-9]{5}" title="Enter Five Digit Admin Id." maxlength="5"
 				required placeholder="Enter Admin ID"
 				oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1');" >
->>>>>>> e06896c5d3b881a587992830e685134132707732
 
 			<button type="submit" class="button">
 				<span class="button__text">Submit</span>
@@ -291,7 +267,6 @@ to {
 
 
 	</div>
-<<<<<<< HEAD
 
 	<script type="text/javascript">
 		function check() {
@@ -305,7 +280,6 @@ to {
 		}
 	</script>
 
-=======
 	
 	<script type="text/javascript">
 	
@@ -323,7 +297,6 @@ to {
 	
 	</script>
 	
->>>>>>> e06896c5d3b881a587992830e685134132707732
 </body>
 </html>
 

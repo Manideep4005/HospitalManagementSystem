@@ -29,14 +29,11 @@ body {
 	box-shadow: 0 0 10px 1px gainsboro;
 }
 
-<<<<<<< HEAD
 .header img {
 	margin-left: 10px;
 	max-width: 150px;
-=======
 .header h2 {
 	text-align: center;
->>>>>>> e06896c5d3b881a587992830e685134132707732
 }
 
 .container {
@@ -190,12 +187,9 @@ to {
 
 #mailSent {
 	margin: 10px auto;
-<<<<<<< HEAD
 	 
-=======
 	background: rgba(208, 240, 192, 1);
 	border: 1px solid green;
->>>>>>> e06896c5d3b881a587992830e685134132707732
 	padding: 12px;
 	border-radius: 1px;
 	color: green;
@@ -216,11 +210,8 @@ to {
 <body onload="document.querySelector('.f').reset();">
 
 	<div class="header">
-<<<<<<< HEAD
 		<img src="CSS/MANI_HOSPITAL.png">
-=======
 		<h2>Hospital Management System</h2>
->>>>>>> e06896c5d3b881a587992830e685134132707732
 	</div>
 
 	<div class="container">

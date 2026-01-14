@@ -1,22 +1,17 @@
-<<<<<<< HEAD
 <%@page import="com.hms.db.CurrentDate"%>
 <%@page import="java.sql.Date"%>
-=======
->>>>>>> e06896c5d3b881a587992830e685134132707732
 <%@page import="java.sql.ResultSet"%>
 <%@page import="com.hms.db.MySqlConnection"%>
 <%@page import="java.sql.PreparedStatement"%>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
 <%@include file="userSessionValidate.jsp"%>
-<<<<<<< HEAD
 <%@page errorPage="userError.jsp"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
 
 
 
-=======
 <%@page errorPage="userError.jsp" %>
 <%
 Integer id = (Integer) session.getAttribute("userAccountId");
@@ -38,7 +33,6 @@ while (rs1.next()) {
 
 ResultSet rs2 = pstmt.executeQuery();
 %>
->>>>>>> e06896c5d3b881a587992830e685134132707732
 
 <!DOCTYPE html>
 <html>
@@ -49,17 +43,13 @@ ResultSet rs2 = pstmt.executeQuery();
 <meta charset="utf-8">
 <meta name="viewport"
 	content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<<<<<<< HEAD
 <link rel="stylesheet"
 	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-=======
 
->>>>>>> e06896c5d3b881a587992830e685134132707732
 <style type="text/css">
 * {
 	box-sizing: border-box;
 	font-family: "Poppins", sans-serif;
-<<<<<<< HEAD
 	margin: 0;
 	padding: 0;
 }
@@ -372,7 +362,6 @@ nav {
 	top: 0;
 	left: 0;
 	backdrop-filter: blur(5px);
-=======
 }
 
 body {
@@ -545,7 +534,6 @@ td {
 h1 {
 	text-align: center;
 	color: #60FD00;
->>>>>>> e06896c5d3b881a587992830e685134132707732
 }
 
 .back p {
@@ -566,7 +554,6 @@ h1 {
 	text-decoration: underline;
 }
 
-<<<<<<< HEAD
 /* Modal background */
   .modal {
     display: none;
@@ -654,7 +641,6 @@ h1 {
 	.cancel-modal {
 		width: 330px;
 		padding: 20px;
-=======
 @media screen and (max-width: 600px) {
 	.scroll {
 		height: 480px;
@@ -670,7 +656,6 @@ h1 {
 	
 	li a {
 		padding: 10px 5px;
->>>>>>> e06896c5d3b881a587992830e685134132707732
 	}
 }
 </style>
@@ -678,7 +663,6 @@ h1 {
 
 
 <body>
-<<<<<<< HEAD
 	<div class="header">
 		<nav>
 			<div class="logo">
@@ -864,7 +848,6 @@ h1 {
 	
 	<div class="overlay-2"></div>
 
-=======
 	<div class="topnav">
 		<ul>
 			<li><a href="usermodule.jsp">Home</a></li>
@@ -929,13 +912,11 @@ h1 {
 
 	</div>
 
->>>>>>> e06896c5d3b881a587992830e685134132707732
 	<div class="back">
 		<p>
 			<a href="usermodule.jsp">Go Back</a>
 		</p>
 	</div>
-<<<<<<< HEAD
 	
 	
 	
@@ -1075,9 +1056,7 @@ function toggleMenu(event) {
 
 
 </script>
-=======
 
 
->>>>>>> e06896c5d3b881a587992830e685134132707732
 </body>
 </html>

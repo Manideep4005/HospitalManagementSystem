@@ -32,23 +32,17 @@ body {
 	box-shadow: 0 0 10px 1px gainsboro;
 }
 
-<<<<<<< HEAD
 .header  img {
 	 max-width: 150px;
 	 margin-left: 10px;
-=======
 .header h2 {
 	text-align: center;
->>>>>>> e06896c5d3b881a587992830e685134132707732
 }
 
 .container {
 	position: absolute;
-<<<<<<< HEAD
 	top: 45%;
-=======
 	top: 50%;
->>>>>>> e06896c5d3b881a587992830e685134132707732
 	left: 50%;
 	transform: translate(-50%, -50%);
 	padding: 25px;
@@ -125,13 +119,10 @@ body {
 
 @media screen and (max-width: 600px) {
 	
-<<<<<<< HEAD
 	 
-=======
 	.container {
 		top: 45%;
 	}
->>>>>>> e06896c5d3b881a587992830e685134132707732
 	
 	.container form {
 		width: 280px;
@@ -207,11 +198,8 @@ to {
 <body onload="document.querySelector('.f').reset();">
 
 	<div class="header">
-<<<<<<< HEAD
 		 <img src="CSS/MANI_HOSPITAL.png"> 
-=======
 		<h2>Hospital Management System</h2>
->>>>>>> e06896c5d3b881a587992830e685134132707732
 	</div>
 
 	<div class="container">
@@ -223,19 +211,16 @@ to {
 				<p id="message">${userForgotOtpSentFail }</p>
 			</c:if>
 
-<<<<<<< HEAD
 			<label for="userId">Email</label> <input type="email"
 				id="country_code" name="userId" placeholder="Enter email" autocomplete="off"
 				
 				required
 				 >
-=======
 			<label for="userId">User Id</label> <input type="text"
 				inputmode="numeric" id="country_code" name="userId"
 				pattern="[0-9]{5}" title="Enter Five Digit User Id." maxlength="5"
 				required
 				oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1');" >
->>>>>>> e06896c5d3b881a587992830e685134132707732
 
 			<button type="submit" class="button">
 				<span class="button__text">Submit</span>

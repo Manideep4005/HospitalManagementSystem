@@ -5,12 +5,10 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1" errorPage="error.jsp"%>
 <%@include file="adminSessionValidate.jsp"%>
-<<<<<<< HEAD
  <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
  
  
  
-=======
 <%
 Integer userId = (Integer) session.getAttribute("adminAccountId");
 String adminName = (String) session.getAttribute("adminName");
@@ -18,7 +16,6 @@ String adminName = (String) session.getAttribute("adminName");
 Statement stmt = MySqlConnection.getConnection().createStatement();
 ResultSet rs = stmt.executeQuery("select * from user");
 %>
->>>>>>> e06896c5d3b881a587992830e685134132707732
 <!DOCTYPE html>
 <html>
 <head>
@@ -28,7 +25,6 @@ ResultSet rs = stmt.executeQuery("select * from user");
 <meta charset="utf-8" />
 <meta name="viewport"
 	content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-<<<<<<< HEAD
 <link rel="stylesheet"
 	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 <style type="text/css">
@@ -265,7 +261,6 @@ font-family: 'Poppins', sans-serif;
           display: block;
         }
       } 
-=======
 
 <style type="text/css">
 body {
@@ -430,12 +425,10 @@ input:focus {
 	text-align: center;
 	margin: 0;
 }
->>>>>>> e06896c5d3b881a587992830e685134132707732
 
  
 
 .scroll {
-<<<<<<< HEAD
 
 	overflow: auto;
 	max-height: 600px;
@@ -620,7 +613,6 @@ input:focus {
 
 
 	<div class="back">
-=======
 	margin-top: 2%;
 	overflow-y: auto;
 	height: 500px;
@@ -771,7 +763,6 @@ h1 {
 
 
 	<div class="get_details">
->>>>>>> e06896c5d3b881a587992830e685134132707732
 		<form method="post" action="adminmodule.jsp">
 			<button type="submit">Go Back</button>
 		</form>
@@ -794,11 +785,8 @@ h1 {
 
 		}
 	</script>
-<<<<<<< HEAD
 	
 	<script type="text/javascript" src="JS/script.js"></script>
-=======
->>>>>>> e06896c5d3b881a587992830e685134132707732
 
 </body>
 </html>

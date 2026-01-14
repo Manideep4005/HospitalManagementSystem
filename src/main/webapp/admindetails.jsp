@@ -1,10 +1,8 @@
-<<<<<<< HEAD
  
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1" errorPage="error.jsp"%>
 <%@include file="adminSessionValidate.jsp"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
-=======
 <%@page import="java.sql.Date"%>
 <%@page import="java.sql.ResultSet"%>
 <%@page import="com.hms.db.MySqlConnection"%>
@@ -43,7 +41,6 @@ while (rs.next()) {
 }
 %>
 
->>>>>>> e06896c5d3b881a587992830e685134132707732
 <!DOCTYPE html>
 <html>
 <head>
@@ -52,7 +49,6 @@ while (rs.next()) {
 <link rel="icon" type="image/png" href="CSS/HMSTITLE.jpg">
 <meta name="viewport"
 	content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-<<<<<<< HEAD
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 <style type="text/css">
 * {
@@ -455,7 +451,6 @@ body {
     .delete:hover {
         background-color: darkred;
     }
-=======
 
 <style type="text/css">
 * {
@@ -678,13 +673,11 @@ th {
 	border-radius: 1px;
 	color: red;
 }
->>>>>>> e06896c5d3b881a587992830e685134132707732
 </style>
 
 
 </head>
 <body>
-<<<<<<< HEAD
 	<div class="header">
       <nav>
         <div class="logo">
@@ -895,7 +888,6 @@ th {
 </html>
 
  
-=======
 	<div class="topnav">
 		<ul>
 			<li><a href="adminmodule.jsp">Home</a></li>
@@ -995,4 +987,3 @@ th {
 session.removeAttribute("adminUpdateSuccess");
 session.removeAttribute("adminUpdateError");
 %>
->>>>>>> e06896c5d3b881a587992830e685134132707732

@@ -26,17 +26,14 @@ body {
 }
 
 .header {
-<<<<<<< HEAD
 	padding: 15px;
 	box-shadow: 0 0 1px 0px #45a29e;
 }
 
 .logo img {
 	max-width: 150px;
-=======
 	padding: 18px;
 	box-shadow: 0 0 10px #45a29e;
->>>>>>> e06896c5d3b881a587992830e685134132707732
 }
 
 .header p {
@@ -49,11 +46,8 @@ body {
 
 .container {
 	width: 500px;
-<<<<<<< HEAD
 	top: 45%;
-=======
 	top: 50%;
->>>>>>> e06896c5d3b881a587992830e685134132707732
 	left: 50%;
 	transform: translate(-50%, -50%);
 	position: absolute;
@@ -61,13 +55,11 @@ body {
 }
 
 .f {
-<<<<<<< HEAD
 	box-shadow: 0 0 2px 1px #9ad0c2;
 	padding: 25px;
 	border-radius: 10px;
 }
  
-=======
 	box-shadow: 0 0 20px #9ad0c2;
 	padding: 20px;
 	border-radius: 10px;
@@ -89,7 +81,6 @@ body {
 	
 }
 
->>>>>>> e06896c5d3b881a587992830e685134132707732
 .container .form label {
 	display: block;
 	margin: 8px 0;
@@ -101,23 +92,17 @@ body {
 
 .container .form .input {
 	display: block;
-<<<<<<< HEAD
 	margin: 15px 0;
 	padding: 10px;
-=======
 	margin: 12px 0;
 	padding: 10px 8px;
->>>>>>> e06896c5d3b881a587992830e685134132707732
 	width: 100%;
 	outline: none;
 	background-color: transparent;
 	border: 2px solid #adcbd7;
 	border-radius: 5px;
-<<<<<<< HEAD
 	font-size: 15px;
-=======
 	font-size: 18px;
->>>>>>> e06896c5d3b881a587992830e685134132707732
 	transition: 0.34s;
 }
 
@@ -127,11 +112,8 @@ body {
 }
 
 .input::placeholder {
-<<<<<<< HEAD
 	font-size: 15px;
-=======
 	font-size: 18px;
->>>>>>> e06896c5d3b881a587992830e685134132707732
 	opacity: 0.8;
 }
 
@@ -150,11 +132,8 @@ body {
 
 .login_btn {
 	display: block;
-<<<<<<< HEAD
 	margin: 12px 0;
-=======
 	margin: 8px 0;
->>>>>>> e06896c5d3b881a587992830e685134132707732
 	margin-left: auto;
 	margin-right: auto;
 	width: 100%;
@@ -172,16 +151,12 @@ body {
 }
 
 .login_btn:hover {
-<<<<<<< HEAD
 	background-color: #45b29e;
-=======
 	background-color: dodgerblue;
->>>>>>> e06896c5d3b881a587992830e685134132707732
 	color: white;
 }
 
 .new_user {
-<<<<<<< HEAD
 	margin: 20px auto;
 	text-align: center;
 }
@@ -196,7 +171,6 @@ body {
 
  
 
-=======
 	margin-top: 10px;
 	margin-left: auto;
 	margin-right: auto;
@@ -224,7 +198,6 @@ body {
 	transform: scale(1.1);
 	padding-left: 5px;
 }
->>>>>>> e06896c5d3b881a587992830e685134132707732
 
 
 
@@ -233,12 +206,10 @@ body {
 		width: 350px;
 		padding: 10px;
 	}
-<<<<<<< HEAD
 	
 	
 	.logo img {
 		max-width: 130px;
-=======
 	.container .form {
 		width: 300px;
 	}
@@ -247,7 +218,6 @@ body {
 	}
 	.header p {
 		font-size: 18px;
->>>>>>> e06896c5d3b881a587992830e685134132707732
 	}
 }
 
@@ -257,23 +227,17 @@ body {
 	margin: 15px auto;
 	text-align: center;
 	text-decoration: none;
-<<<<<<< HEAD
 	color: #45a29e;
-=======
 	color: black;
 	font-weight: 800;
->>>>>>> e06896c5d3b881a587992830e685134132707732
 	transition-duration: .4s;
 	width: 200px;
 }
 
 #forgot:hover {
-<<<<<<< HEAD
 	transform: scale(1.02);
-=======
 	transform: scale(1.10);
 	text-decoration: underline;
->>>>>>> e06896c5d3b881a587992830e685134132707732
 }
 
 #mailSent, .error1 {
@@ -321,16 +285,13 @@ body {
 </style>
 </head>
 <body onload="document.querySelector('.form').reset()">
-<<<<<<< HEAD
 	
 	<div class="header"> 
 		<div class="logo">
 			<img alt="" src="CSS/MANI_HOSPITAL.png">
 		</div>
-=======
 	<div class="header">
 		<p class="intro">Welcome to Hospital Management System</p>
->>>>>>> e06896c5d3b881a587992830e685134132707732
 	</div>
 
 	
@@ -339,11 +300,8 @@ body {
 		<div class="f">
 			<form action="UserValidateServlet" method="post" class="form">
 				<c:if test="${errorMessage != null }">
-<<<<<<< HEAD
 					<div class="error">${errorMessage}</div>
-=======
 					<div class="error">Invalid user id / password</div>
->>>>>>> e06896c5d3b881a587992830e685134132707732
 				</c:if>
 				<c:if test="${userGeneratedId != null }">
 					<div class="error1">${userGeneratedId}</div>
@@ -355,26 +313,22 @@ body {
 				<c:if test="${userForgotPasswordChangeError != null }">
 					<div class="error">${userForgotPasswordChangeError}</div>
 				</c:if>
-<<<<<<< HEAD
 				 <input type="email"  
 					placeholder="User name or Email" required class="input" name="userid"  autocomplete="off">
 				 <input type="password" autocomplete="off"
 					name="password" placeholder="Password" required class="input"
 					id="myInput" /> <!--  <span class="show" onclick="showPassword()">Show
 					password</span>-->
-=======
 				 <input type="text" maxlength="5"
 					placeholder="Enter user Id" required class="input" name="userid" />
 				 <input type="password"
 					name="password" placeholder="Enter Password" required class="input"
 					id="myInput" /> <span class="show" onclick="showPassword()">Show
 					password</span>
->>>>>>> e06896c5d3b881a587992830e685134132707732
 				<button type="submit" class="login_btn">Login</button>
 			</form>
 			<a href="user-forgotpasswordotp.jsp" id="forgot">forgot password?</a>
 		
-<<<<<<< HEAD
 		
 		</div>
 		<div class="new_user">
@@ -388,7 +342,6 @@ body {
 				<button>Back Home</button>
 			</form>
 		</div>-->
-=======
 		<div class="new_user">
 			<form action="userregister.jsp" method="POST" class="new_user_create">
 				<p>
@@ -404,7 +357,6 @@ body {
 				<button>Back Home</button>
 			</form>
 		</div>
->>>>>>> e06896c5d3b881a587992830e685134132707732
 	</div>
 
 	<!-- 
@@ -424,14 +376,11 @@ body {
 			}
 
 		}
-<<<<<<< HEAD
 		
 		
 		function navigate(url) {
 			window.location.href = url;
 		}
-=======
->>>>>>> e06896c5d3b881a587992830e685134132707732
 	</script>
 </body>
 </html>

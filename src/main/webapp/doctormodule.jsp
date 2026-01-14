@@ -1,12 +1,9 @@
-<<<<<<< HEAD
 <%@page import="com.hms.doctor.DoctorsBean"%>
 <%@page import="java.util.Iterator"%>
 <%@page import="java.util.ArrayList"%>
-=======
 <%@page import="java.util.Iterator"%>
 <%@page import="java.util.ArrayList"%>
 <%@page import="com.hms.admin.DoctorsBean"%>
->>>>>>> e06896c5d3b881a587992830e685134132707732
 <%@page import="java.sql.ResultSet"%>
 <%@page import="com.hms.db.MySqlConnection"%>
 <%@page import="java.sql.PreparedStatement"%>
@@ -16,9 +13,7 @@
 <%@include file="doctorSessionValidate.jsp"%>
 
 
-<<<<<<< HEAD
  
-=======
 <%
 
 
@@ -48,13 +43,11 @@ session.setAttribute("doctorAccountName", doctorFirstName + " " + doctorLastName
 session.setAttribute("doctorAccountId", new Integer(doctorId));
 session.setAttribute("doctorSpecialization", specialization);
 %>
->>>>>>> e06896c5d3b881a587992830e685134132707732
 
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<<<<<<< HEAD
 <title>Doctor Dashboard | Hospital Management System</title>
 <link rel="icon" type="image/png" href="CSS/HMSTITLE.jpg" />
 <meta charset="utf-8">
@@ -359,7 +352,6 @@ body {
 	justify-content: flex-end;
 }
 
-=======
 <title>Welcome | Hospital Management System</title>
 <meta charset="utf-8">
 <meta name="viewport"
@@ -490,7 +482,6 @@ a img {
 .button-icon {
 	font-size: 1.5em;
 }
->>>>>>> e06896c5d3b881a587992830e685134132707732
 
 .doctor_view {
 	width: 300px;
@@ -583,7 +574,6 @@ button:hover {
 <body>
 	
 
-<<<<<<< HEAD
 	
 	  <div class="header">
       <nav>
@@ -675,7 +665,6 @@ button:hover {
     </div>
 
     <div class="overlay"></div>
-=======
 	<div class="topnav">
 		
 		<ul>
@@ -696,7 +685,6 @@ button:hover {
 		</ul>
 	</div>
 
->>>>>>> e06896c5d3b881a587992830e685134132707732
 
 	<div class="doctor_view">
 
@@ -706,10 +694,7 @@ button:hover {
 		</form>
 	</div>
 
-<<<<<<< HEAD
 	<script type="text/javascript" src="JS/script.js"></script>
-=======
 
->>>>>>> e06896c5d3b881a587992830e685134132707732
 </body>
 </html>

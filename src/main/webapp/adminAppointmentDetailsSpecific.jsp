@@ -25,11 +25,8 @@ ResultSet rs = pstmt.executeQuery();
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<<<<<<< HEAD
 <title>Appointment Details | HMS</title>
-=======
 <title>Welcome | HMS</title>
->>>>>>> e06896c5d3b881a587992830e685134132707732
 <link rel="icon" type="image/png" href="CSS/HMSTITLE.jpg">
 <meta name="viewport"
 	content="width=device-width, initial-scale=1, shrink-to-fit=no" />

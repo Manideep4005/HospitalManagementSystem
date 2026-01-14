@@ -9,9 +9,7 @@
 <%@ page session="true"%>
 <%@include file="userSessionValidate.jsp"%>
 <%@page errorPage="userError.jsp"%>
-<<<<<<< HEAD
  
-=======
 <%
 String userId = (String) session.getAttribute("userSessionId");
 %>
@@ -43,7 +41,6 @@ session.setAttribute("currentUserName", userFirstName + " " + userLastName);
 session.setAttribute("userAccountId", new Integer(uId));
 session.setAttribute("userEmail", userEmail);
 %>
->>>>>>> e06896c5d3b881a587992830e685134132707732
 <!DOCTYPE html>
 <html>
 <head>
@@ -53,18 +50,14 @@ session.setAttribute("userEmail", userEmail);
 <meta charset="utf-8">
 <meta name="viewport"
 	content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<<<<<<< HEAD
 <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-=======
->>>>>>> e06896c5d3b881a587992830e685134132707732
 
 <style type="text/css">
 * {
 	box-sizing: border-box;
-<<<<<<< HEAD
 	margin: 0;
 	padding: 0;
 }
@@ -336,7 +329,6 @@ margin: 10px 0;
 
 .cards > form > button:hover {
 	background: #a8a8a8;
-=======
 	font-family: "Poppins", sans-serif;
 }
 
@@ -500,7 +492,6 @@ a img {
 	color: black;
 	font-weight: 500;
 	font-size: 20px;
->>>>>>> e06896c5d3b881a587992830e685134132707732
 }
 
 select:focus {
@@ -509,21 +500,18 @@ select:focus {
 }
 
 select {
-<<<<<<< HEAD
 	width: 100%;
 	padding: 10px;
 	display: block;
 	margin: 12px 0;
 	border: 2px solid transparent;
 	box-shadow: 0px 0px 0px 1px midnightblue;
-=======
 	width: 50%;
 	padding: 12px 20px;
 	margin: 8px 0;
 	display: block;
 	border: 2px solid transparent;
 	box-shadow: 0px 0px 5px 0px midnightblue;
->>>>>>> e06896c5d3b881a587992830e685134132707732
 	border-radius: 5px;
 	box-sizing: border-box;
 	outline: none;
@@ -531,10 +519,7 @@ select {
 	transition: 0.34s ease;
 	margin-left: auto;
 	margin-right: auto;
-<<<<<<< HEAD
 	cursor: pointer;
-=======
->>>>>>> e06896c5d3b881a587992830e685134132707732
 }
 
 select option {
@@ -543,7 +528,6 @@ select option {
 	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
 }
 
-<<<<<<< HEAD
  @media screen and (max-width: 600px) {
 	
 	
@@ -804,7 +788,6 @@ select option {
         }
       });
     </script>
-=======
 .doctor_view, .book {
 	box-shadow: 0px 0px 5px 0px #09203F;
 	margin-top: 5%;
@@ -957,6 +940,5 @@ select option {
 		</form>
 	</div>
 
->>>>>>> e06896c5d3b881a587992830e685134132707732
 </body>
 </html>

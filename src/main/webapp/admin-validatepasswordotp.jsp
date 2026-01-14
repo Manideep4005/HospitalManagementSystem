@@ -29,20 +29,17 @@ body {
 
 .header {
 	padding: 15px;
-<<<<<<< HEAD
 	box-shadow: 0 0 5px 1px gainsboro;
 }
 
 .header > img {
 	 max-width: 150px;
 	 margin-left: 10px;
-=======
 	box-shadow: 0 0 10px 1px gainsboro;
 }
 
 .header h2 {
 	text-align: center;
->>>>>>> e06896c5d3b881a587992830e685134132707732
 }
 
 .container {
@@ -177,12 +174,9 @@ body {
 	animation: button-loading-spinner 1s linear infinite;
 }
 
-<<<<<<< HEAD
 @keyframes button-loading-spinner {from { transform:rotate(0turn);
-=======
 @
 keyframes button-loading-spinner {from { transform:rotate(0turn);
->>>>>>> e06896c5d3b881a587992830e685134132707732
 	
 }
 
@@ -214,11 +208,8 @@ to {
 <body onload="document.querySelector('.f').reset();">
 
 	<div class="header">
-<<<<<<< HEAD
 		<img alt="" src="CSS/MANI_HOSPITAL.png">
-=======
 		<h2>Hospital Management System</h2>
->>>>>>> e06896c5d3b881a587992830e685134132707732
 	</div>
 
 	<div class="container">

@@ -4,18 +4,15 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1" errorPage="error.jsp"%>
 <%@include file="adminSessionValidate.jsp"%>
-<<<<<<< HEAD
     <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 
 
  
-=======
 
 <%
 Statement stmt = MySqlConnection.getConnection().createStatement();
 ResultSet rs = stmt.executeQuery("select * from appointment");
 %>
->>>>>>> e06896c5d3b881a587992830e685134132707732
 
 
 <!DOCTYPE html>
@@ -26,7 +23,6 @@ ResultSet rs = stmt.executeQuery("select * from appointment");
 <link rel="icon" type="image/png" href="CSS/HMSTITLE.jpg">
 <meta name="viewport"
 	content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-<<<<<<< HEAD
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 <style type="text/css">
 * {
@@ -290,7 +286,6 @@ body {
 
 .container > .tabs   > p {
 	margin: 2px 0;
-=======
 
 <style type="text/css">
 body {
@@ -503,7 +498,6 @@ select:focus {
 	border-color: transparent;
 	background-color: #008cba;
 	color: white;
->>>>>>> e06896c5d3b881a587992830e685134132707732
 }
 
 
@@ -527,7 +521,6 @@ select:focus {
 </style>
 </head>
 <body>
-<<<<<<< HEAD
 	 <div class="header">
       <nav>
         <div class="logo">
@@ -656,7 +649,6 @@ select:focus {
 	 		</c:choose>
      </div>
 	
-=======
 	<div class="topnav">
 		<ul>
 			<li><a href="adminmodule.jsp">Home</a></li>
@@ -732,17 +724,13 @@ select:focus {
 
 
 	</div>
->>>>>>> e06896c5d3b881a587992830e685134132707732
 
 	<div class="back">
 		<form action="adminAppointmentPage.jsp" method="post">
 			<button type="submit">Go Back</button>
 		</form>
 	</div>
-<<<<<<< HEAD
 	<script type="text/javascript" src="JS/script.js"></script>
-=======
 
->>>>>>> e06896c5d3b881a587992830e685134132707732
 </body>
 </html>

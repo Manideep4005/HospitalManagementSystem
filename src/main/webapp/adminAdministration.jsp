@@ -5,25 +5,18 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<<<<<<< HEAD
 <title>HMS</title>
-=======
 <title>Welcome | HMS</title>
->>>>>>> e06896c5d3b881a587992830e685134132707732
 <link rel="icon" type="image/png" href="CSS/HMSTITLE.jpg">
 <meta charset="utf-8" />
 <meta name="viewport"
 	content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-<<<<<<< HEAD
 <link rel="stylesheet"
 	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-=======
->>>>>>> e06896c5d3b881a587992830e685134132707732
 
 <style type="text/css">
 * {
 	box-sizing: border-box;
-<<<<<<< HEAD
 	margin: 0;
 	padding: 0;
 }
@@ -257,7 +250,6 @@ font-family: 'Poppins', sans-serif;
       } 
 
  
-=======
 	font-family: 'Poppins', sans-serif;
 }
 
@@ -366,7 +358,6 @@ a img {
 	font-size: 1.5em;
 }
 
->>>>>>> e06896c5d3b881a587992830e685134132707732
 .div_1, .div_2 {
 	margin-top:  50px;
 	margin-left: auto;
@@ -377,10 +368,7 @@ a img {
 	display: table;
 	transition-duration: 2s;
 	cursor: pointer;
-<<<<<<< HEAD
-=======
 	animation: shape 10s infinite;
->>>>>>> e06896c5d3b881a587992830e685134132707732
 }
 
 .div_1:hover, .div_2:hover {
@@ -404,9 +392,7 @@ a img {
 	}
 }
 
-<<<<<<< HEAD
  
-=======
 @media screen and (max-width: 600px) {
 	.dropdown-content {
 		margin-left: -60px;
@@ -415,12 +401,10 @@ a img {
 		padding: 12px 10px;
 	}
 }
->>>>>>> e06896c5d3b881a587992830e685134132707732
 </style>
 
 </head>
 <body>
-<<<<<<< HEAD
  		  <div class="header">
       <nav>
         <div class="logo">
@@ -520,7 +504,6 @@ a img {
 
 	<div class="div_2">
 		<a href="AdminViewAdminsServlet"> Admins </a>
-=======
 	<div class="topnav">
 		<ul>
 			<li><a href="adminmodule.jsp">Home</a></li>
@@ -548,7 +531,6 @@ a img {
 
 	<div class="div_2">
 		<a href="adminViewAdmins.jsp"> Admins </a>
->>>>>>> e06896c5d3b881a587992830e685134132707732
 	</div>
 
 
@@ -563,12 +545,9 @@ a img {
       <button type="submit">Admins</button>
     </form>
   </div>-->
-<<<<<<< HEAD
 	
 	<script type="text/javascript" src="JS/script.js"></script>
 	
-=======
 
->>>>>>> e06896c5d3b881a587992830e685134132707732
 </body>
 </html>

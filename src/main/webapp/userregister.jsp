@@ -12,19 +12,15 @@
 <meta charset="utf-8">
 <meta name="viewport"
 	content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<<<<<<< HEAD
 <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-=======
 
->>>>>>> e06896c5d3b881a587992830e685134132707732
 
 
 <style type="text/css">
 * {
-<<<<<<< HEAD
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
@@ -93,7 +89,6 @@ form {
 	max-width: 500px;
 	padding: 20px;
 	box-shadow: 0 0 0px 1px #abb4a7;
-=======
 	box-sizing: border-box;
 	font-family: "Poppins", sans-serif;
 }
@@ -163,38 +158,28 @@ form {
 	width: 550px;
 	padding: 20px;
 	box-shadow: 0 0 15px #abb4a7;
->>>>>>> e06896c5d3b881a587992830e685134132707732
 	border-radius: 8px;
 	border: none;
 	background-color: transparent;
 	transition: 0.34s;
 }
 
-<<<<<<< HEAD
-=======
 form:hover {
 	box-shadow: 0 0 0 2px #abb4a7;
 }
->>>>>>> e06896c5d3b881a587992830e685134132707732
 
 input, select, textarea {
 	width: 100%;
 	margin: 8px 0;
-<<<<<<< HEAD
 	padding: 10px;
-=======
 	padding: 12px 20px;
->>>>>>> e06896c5d3b881a587992830e685134132707732
 	display: inline-block;
 	border: 1px solid #a7b4b0;
 	box-sizing: border-box;
 	outline: none;
 	border-radius: 5px;
-<<<<<<< HEAD
 	font-size: 16px;
-=======
 	font-size: 18px;
->>>>>>> e06896c5d3b881a587992830e685134132707732
 	transition: 0.34s ease;
 }
 
@@ -218,12 +203,10 @@ select {
 	background-color: transparent;
 }
 
-<<<<<<< HEAD
  
 
 @media screen and (max-width: 600px) {
 
-=======
 /*button {
 	width: 100%;
 	margin: 8px 0;
@@ -261,7 +244,6 @@ button:hover {
 		background-color: #f1f1f1;
 		border-bottom: none;
 	}
->>>>>>> e06896c5d3b881a587992830e685134132707732
 	input::placeholder, textarea::placeholder, select {
 		color: gray;
 		font-size: 15px;
@@ -282,9 +264,7 @@ button:hover {
 	color: red;
 }
 
-<<<<<<< HEAD
  
-=======
 a img {
 	height: auto;
 	width: 1em;
@@ -319,7 +299,6 @@ a img {
 	cursor: pointer;
 	transition: 0.34s;
 }
->>>>>>> e06896c5d3b881a587992830e685134132707732
 
 #signUpForm input.invalid, #signUpForm textarea.invalid, #signUpForm select.invalid
 	{
@@ -333,18 +312,14 @@ a img {
 .button {
 	position: relative;
 	padding: 12px 16px;
-<<<<<<< HEAD
 	background: dodgerblue;
-=======
 	background: #00008b;
->>>>>>> e06896c5d3b881a587992830e685134132707732
 	border: none;
 	outline: none;
 	border-radius: 2px;
 	cursor: pointer;
 	width: 100%;
 	margin: 8px 0;
-<<<<<<< HEAD
 	color: white;
 	font-size: 16px;
 }
@@ -394,7 +369,6 @@ display: none;
   animation: spinner 1s linear infinite;
 }
 
-=======
 }
 
 .button:active {
@@ -438,13 +412,11 @@ to {
 	transform: rotate(1turn);
 }
 }
->>>>>>> e06896c5d3b881a587992830e685134132707732
 </style>
 
 
 </head>
 <body onload="document.querySelector('.form').reset();">
-<<<<<<< HEAD
 			
 	<div class="header">
 		
@@ -462,7 +434,6 @@ to {
 			
 		</nav>
 		
-=======
 	<div class="topnav">
 		<ul>
 			<li><a href="Userlogin.jsp">Home</a></li>
@@ -478,7 +449,6 @@ to {
 
 	<div class="header">
 		<p>fill form to register</p>
->>>>>>> e06896c5d3b881a587992830e685134132707732
 	</div>
 
 	<div class="details_tab">
@@ -528,7 +498,6 @@ to {
 			</div>
 
 			<button type="submit" class="button">
-<<<<<<< HEAD
 				Submit
 			</button>
 		</form>
@@ -538,13 +507,11 @@ to {
 		<div class="spinner"></div>
 	</div>
 	<div class="overlay"></div>
-=======
 				<span class="button__text">Submit</span>
 			</button>
 		</form>
 	</div>
 
->>>>>>> e06896c5d3b881a587992830e685134132707732
 
 	<script type="text/javascript">
 	
@@ -554,11 +521,8 @@ to {
 	        var y = document.getElementsByClassName("one");
 	        var i,
 	          valid = true;
-<<<<<<< HEAD
 	        const spinner = document.querySelector('.spinner');
 	        const overlay = document.querySelector('.overlay');
-=======
->>>>>>> e06896c5d3b881a587992830e685134132707732
 
 	        for (i = 0; i < y.length; i++) {
 	          if (y[i].value == "" ) {
@@ -572,21 +536,15 @@ to {
 	        
 	       var final = valid && pass;
 	       
-<<<<<<< HEAD
-=======
 	       var btn = document.querySelector(".button");
->>>>>>> e06896c5d3b881a587992830e685134132707732
 
 	   		
 	       
 	   		if (final) {
-<<<<<<< HEAD
 				spinner.style.display = "block";
 				overlay.style.display = "block";
-=======
 	   			btn.classList.toggle("button--loading");
 	   			btn.disabled = true;
->>>>>>> e06896c5d3b881a587992830e685134132707732
 	   		}
 	       
 	   		return final ;

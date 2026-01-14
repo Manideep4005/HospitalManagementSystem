@@ -5,16 +5,12 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<<<<<<< HEAD
 <title>Patient Search | Hospital Management System</title>
-=======
 <title>Patient Details | HMS</title>
->>>>>>> e06896c5d3b881a587992830e685134132707732
 <link rel="icon" type="image/png" href="CSS/HMSTITLE.jpg">
 <meta name="viewport"
 	content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-<<<<<<< HEAD
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 <style type="text/css">
 * {
@@ -262,7 +258,6 @@ body {
 }
 
 .container > form > label {
-=======
 
 <style type="text/css">
 * {
@@ -381,38 +376,30 @@ input::placeholder {
 }
 
 label {
->>>>>>> e06896c5d3b881a587992830e685134132707732
 	font-size: 20px;
 	color: midnightblue;
 	font-weight: 200;
 }
 
-<<<<<<< HEAD
 .container > form > input {
 	width: 100%;
 	margin: 8px 0;
 	padding: 12px;
-=======
 input {
 	width: 100%;
 	margin: 8px 0;
 	padding: 12px 20px;
 	display: inline-block;
->>>>>>> e06896c5d3b881a587992830e685134132707732
 	border: 2px solid #168aaa;
 	box-sizing: border-box;
 	outline: none;
 	border-radius: 5px;
-<<<<<<< HEAD
 	font-size: 14px;
-=======
 	font-size: 18px;
->>>>>>> e06896c5d3b881a587992830e685134132707732
 	color: #808080;
 	transition-duration: .4s;
 }
 
-<<<<<<< HEAD
 .container > form > input:focus {
 	border-color: dodgerblue;
 }
@@ -420,7 +407,6 @@ input {
 #demo  {
 	font-size: 14px;
 	margin: 5px 0;
-=======
 input:focus {
 	border: 2px solid darkorange;
 }
@@ -464,12 +450,10 @@ h1 {
 #demo, #demo1 {
 	font-size: 15px;
 	margin-top: 0;
->>>>>>> e06896c5d3b881a587992830e685134132707732
 	padding-left: 10px;
 	color: red;
 }
 
-<<<<<<< HEAD
 .container > form > button {
 	font-size: 14px;
 	color: white;
@@ -484,8 +468,6 @@ h1 {
 	width: 100%;
 }
 
-=======
->>>>>>> e06896c5d3b881a587992830e685134132707732
 #back {
 	color: black;
 	border: none;
@@ -504,9 +486,7 @@ h1 {
 #back:hover {
 	text-decoration: underline;
 }
-<<<<<<< HEAD
  
-=======
 
 
 @media screen and (max-width:600px){
@@ -519,12 +499,10 @@ h1 {
 	}
 }
 
->>>>>>> e06896c5d3b881a587992830e685134132707732
 </style>
 
 </head>
 <body>
-<<<<<<< HEAD
 <div class="header">
       <nav>
         <div class="logo">
@@ -631,7 +609,6 @@ h1 {
 				<button type="submit">Submit</button>
 
 			</form>
-=======
 	<div class="topnav">
 		<ul>
 			<li><a href="adminmodule.jsp">Home</a></li>
@@ -680,7 +657,6 @@ h1 {
 
 			</form>
 		</div>
->>>>>>> e06896c5d3b881a587992830e685134132707732
 	</div>
 
 
@@ -712,10 +688,7 @@ h1 {
 			<button type="submit" id="back">Go Back</button>
 		</form>
 	</div>
-<<<<<<< HEAD
 	<script type="text/javascript" src="JS/script.js"></script>
-=======
->>>>>>> e06896c5d3b881a587992830e685134132707732
 
 </body>
 </html>

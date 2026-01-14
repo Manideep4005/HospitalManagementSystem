@@ -11,15 +11,11 @@
 <meta name="viewport"
 	content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-<<<<<<< HEAD
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-=======
->>>>>>> e06896c5d3b881a587992830e685134132707732
 
 <style type="text/css">
 * {
 	box-sizing: border-box;
-<<<<<<< HEAD
 	margin: 0;
 	padding: 0;
 }
@@ -264,7 +260,6 @@ body {
 
 label {
 	font-size: 15px;
-=======
 	font-family: 'Poppins', sans-serif;
 }
 
@@ -375,7 +370,6 @@ a img {
 
 label {
 	font-size: 20px;
->>>>>>> e06896c5d3b881a587992830e685134132707732
 	color: midnightblue;
 	font-weight: 200;
 }
@@ -383,7 +377,6 @@ label {
 input {
 	width: 100%;
 	margin: 8px 0;
-<<<<<<< HEAD
 	padding: 12px;
 	display: inline-block;
 	border: 2px solid dodgerblue;
@@ -393,7 +386,6 @@ input {
 	font-size: 14px;
 	color: #808080;
 	transition: .4s ease;
-=======
 	padding: 12px 20px;
 	display: inline-block;
 	border: 2px solid #f1f1f1;
@@ -403,14 +395,12 @@ input {
 	font-size: 18px;
 	color: #808080;
 	transition: .34s ease;
->>>>>>> e06896c5d3b881a587992830e685134132707732
 }
 
 input:focus {
 	border: 2px solid #317AC7;
 }
 
-<<<<<<< HEAD
  
 h1 {
 	text-align: center;
@@ -418,7 +408,6 @@ h1 {
 
 input::placeholder {
 	font-size: 14px;
-=======
 .search form {
 	width: 500px;
 	box-shadow: 0px 0px 10px 10px #F2F1EB, 0px 0px 0px 10px #AFC8AD;
@@ -457,12 +446,10 @@ h1 {
 
 input::placeholder {
 	font-size: 15px;
->>>>>>> e06896c5d3b881a587992830e685134132707732
 	color: gray;
 }
 
 #demo {
-<<<<<<< HEAD
 	font-size: 14px;
 	margin: 2px 0;
 	color: red;
@@ -511,14 +498,12 @@ input::placeholder {
 
 .search_img i.purple { color: #9b59b6; background-color: rgba(155, 89, 182, 0.1); }
 
-=======
 	font-size: 15px;
 	margin-top: 0;
 	padding-left: 10px;
 	color: red;
 }
 
->>>>>>> e06896c5d3b881a587992830e685134132707732
 .back button {
 	color: black;
 	border: none;
@@ -539,9 +524,7 @@ input::placeholder {
 }
 
 
-<<<<<<< HEAD
  
-=======
 @media screen and (max-width:600px) {
 	li a {
 		padding: 10px 5px;
@@ -550,12 +533,10 @@ input::placeholder {
 		width: 320px;
 	}
 }
->>>>>>> e06896c5d3b881a587992830e685134132707732
 </style>
 
 </head>
 <body>
-<<<<<<< HEAD
 	<div class="header">
       <nav>
         <div class="logo">
@@ -657,7 +638,6 @@ input::placeholder {
 			onsubmit="return validateForm()">
 			<label>Mobile Number or id</label> 
 			<input type="text" name="mobilenumber" maxlength="10" id="one" placeholder="Mobile Number or Patient id" autocomplete="off">
-=======
 	<div class="topnav">
 		<ul>
 			<li><a href="adminmodule.jsp">Home</a></li>
@@ -685,7 +665,6 @@ input::placeholder {
 			onsubmit="return validateForm()">
 			<label>Mobile Number</label> <input type="text" name="mobilenumber"
 				maxlength="10" id="one" placeholder="Contact...">
->>>>>>> e06896c5d3b881a587992830e685134132707732
 			<p id="demo"></p>
 			<button id="search" type="submit">search</button>
 		</form>
@@ -702,13 +681,10 @@ input::placeholder {
 			if (isNaN(y)) {
 				document.getElementById("demo").innerHTML = "Enter Numbers only";
 				return false;
-<<<<<<< HEAD
 			} else if (y.length <= 4 || y.length > 10) {
 				document.getElementById("demo").innerHTML = "Please Enter 5 digit id or 10 digit mobile number";
-=======
 			} else if (y.length == "" || y.length < 10) {
 				document.getElementById("demo").innerHTML = "Please Enter 10 Digit number";
->>>>>>> e06896c5d3b881a587992830e685134132707732
 				return false;
 			} else {
 				return true;
@@ -721,10 +697,7 @@ input::placeholder {
 			<button type="submit" id="back">Go Back</button>
 		</form>
 	</div>
-<<<<<<< HEAD
 	
 	<script type="text/javascript" src="JS/script.js"></script>
-=======
->>>>>>> e06896c5d3b881a587992830e685134132707732
 </body>
 </html>

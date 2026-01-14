@@ -13,7 +13,6 @@
 	rel="stylesheet">
 <meta name="viewport"
 	content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-<<<<<<< HEAD
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 <style>
 * {
@@ -255,7 +254,6 @@ body {
 h1 {
 	text-align: center;
 	margin: 10px auto;
-=======
 <style>
 * {
 	box-sizing: border-box;
@@ -271,21 +269,17 @@ h1 {
 	text-align: center;
 	font-size: 2.5em;
 	letter-spacing: 4px;
->>>>>>> e06896c5d3b881a587992830e685134132707732
 }
 
 #signUpForm {
 	max-width: 500px;
 	background-color: #ffffff;
-<<<<<<< HEAD
 	margin: 20px auto;
 	padding: 40px;
 	box-shadow: 0px 0px 3px 1px #a7ede8;
-=======
 	margin: 40px auto;
 	padding: 40px;
 	box-shadow: 0px 6px 18px #a7ede8;
->>>>>>> e06896c5d3b881a587992830e685134132707732
 	border-radius: 15px;
 }
 
@@ -417,9 +411,7 @@ h1 {
 	color: #009688;
 }
 
-<<<<<<< HEAD
  
-=======
 ul {
 	list-style-type: none;
 	margin: 0;
@@ -525,7 +517,6 @@ a img {
 .button-icon {
 	font-size: 1.5em;
 }
->>>>>>> e06896c5d3b881a587992830e685134132707732
 
 #back {
 	color: black;
@@ -548,16 +539,13 @@ a img {
 
 @media screen and (max-width:600px) {
 	 
-<<<<<<< HEAD
 	
-=======
 	li a {
 		padding: 10px 5px;
 	}
 	.dropdown-content {
 		margin-left: -60px;
 	}
->>>>>>> e06896c5d3b881a587992830e685134132707732
 	 #signUpForm {
 	 	max-width: 400px;
 	 }
@@ -565,7 +553,6 @@ a img {
 
 </style>
 <body>
-<<<<<<< HEAD
 	<div class="header">
       <nav>
         <div class="logo">
@@ -657,7 +644,6 @@ a img {
 
     <div class="overlay"></div>
 
-=======
 	<div class="topnav">
 		<ul>
 			<li><a href="adminmodule.jsp">Home</a></li>
@@ -676,7 +662,6 @@ a img {
 				</div></li>
 		</ul>
 	</div>
->>>>>>> e06896c5d3b881a587992830e685134132707732
 
 
 	<h1>Register Doctor</h1>
@@ -845,10 +830,7 @@ a img {
 			x[n].className += " active";
 		}
 	</script>
-<<<<<<< HEAD
 	<script type="text/javascript" src="JS/script.js"></script>
-=======
->>>>>>> e06896c5d3b881a587992830e685134132707732
 
 	<div class="back">
 		<form action="adminmodule.jsp" method="post">

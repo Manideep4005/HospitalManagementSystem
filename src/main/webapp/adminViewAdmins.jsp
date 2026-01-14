@@ -1,5 +1,4 @@
 <%@page import="java.sql.ResultSet"%>
-<<<<<<< HEAD
 <%@page import="java.sql.Statement"%>
 <%@page import="com.hms.db.MySqlConnection"%>
 <%@page import="java.sql.PreparedStatement"%>
@@ -10,7 +9,6 @@
  
  
  
-=======
 <%@page import="com.hms.db.MySqlConnection"%>
 <%@page import="java.sql.Statement"%>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
@@ -26,12 +24,10 @@
     	
     %>
     
->>>>>>> e06896c5d3b881a587992830e685134132707732
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<<<<<<< HEAD
 <title>Users | HMS</title>
 <link rel="icon" type="image/png" href="CSS/HMSTITLE.jpg">
 <meta charset="utf-8" />
@@ -273,7 +269,6 @@ font-family: 'Poppins', sans-serif;
           display: block;
         }
       } 
-=======
 <title>Hospital Management System</title>
 <meta charset="utf-8" />
 <meta name="viewport"
@@ -390,12 +385,10 @@ a img {
 .button-icon {
 	font-size: 1.2em;
 }
->>>>>>> e06896c5d3b881a587992830e685134132707732
 
  
 
 .scroll {
-<<<<<<< HEAD
 
 	overflow: auto;
 	max-height: 600px;
@@ -595,7 +588,6 @@ a img {
 	
 	<script type="text/javascript" src="JS/script.js"></script>
 
-=======
 	margin-top: 2%;
 	overflow-y: auto;
 	height: 500px;
@@ -737,6 +729,5 @@ h1 {
             <button type="submit">Go Back</button>
         </form>
     </div>
->>>>>>> e06896c5d3b881a587992830e685134132707732
 </body>
 </html>

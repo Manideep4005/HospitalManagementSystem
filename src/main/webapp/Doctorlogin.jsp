@@ -11,7 +11,6 @@
 
 <style type="text/css">
 * {
-<<<<<<< HEAD
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
@@ -34,7 +33,6 @@ body {
 
 .container {
 	top: 45%;
-=======
 	font-family: 'Poppins', sans-serif;
 	margin: 0;
 	padding: 0;
@@ -61,7 +59,6 @@ body {
 
 .container {
 	top: 50%;
->>>>>>> e06896c5d3b881a587992830e685134132707732
 	left: 50%;
 	transform: translate(-50%, -50%);
 	position: absolute;
@@ -71,13 +68,10 @@ body {
 	width: 500px;
 	margin: auto;
 	padding: 25px;
-<<<<<<< HEAD
 	box-shadow: 0 0 1px 0px #168aaa;
 	border-radius: 5px;
-=======
 	box-shadow: 0 0 5px 1px #168aaa;
 	border-radius: 2px;
->>>>>>> e06896c5d3b881a587992830e685134132707732
 }
 
 label {
@@ -87,21 +81,18 @@ label {
 .form input  {
 	display: block;
 	outline: none;
-<<<<<<< HEAD
 	padding: 10px 8px;
 	border: 1px solid #168aaa;
 	border-radius: 5px;
 	background: transparent;
 	font-size: 15px;
 	width: 100%;
-=======
 	padding: 10px 5px;
 	border: 2px solid #168aaa;
 	background: transparent;
 	font-size: 18px;
 	width: 100%;
 	border-radius: 2px;
->>>>>>> e06896c5d3b881a587992830e685134132707732
 	transition-duration: .4s;
 	margin: 12px 0;
 }
@@ -202,19 +193,16 @@ font-size: 14px;
 
 </head>
 
-<<<<<<< HEAD
 <body onload="document.querySelector('.form').reset()">
 	<div class="header">
 		<img src="CSS/MANI_HOSPITAL.png">
 	</div>
 
-=======
 <body onload="document.querySelector('.form').reset();">
 
 	<div class="header">
 		<p>Hospital Management System</p>
 	</div>
->>>>>>> e06896c5d3b881a587992830e685134132707732
 
 	<div class="container">
 		<div class="f">
@@ -225,15 +213,12 @@ font-size: 14px;
 
 			</c:if>
 				<input type="text" name="doctorid" required
-<<<<<<< HEAD
 					placeholder="Doctor Id" maxlength="5"> <input
 					type="password" name="doctoremail" required
 					placeholder="Doctor Email" id="myInput"> <label
-=======
 					placeholder="Enter your id" maxlength="5"> <input
 					type="password" name="doctoremail" required
 					placeholder="Enter your email" id="myInput"> <label
->>>>>>> e06896c5d3b881a587992830e685134132707732
 					id="checkboxspan"> <input type="checkbox" id="checkbox"
 					onclick="myFunction()" id="checkboxspan">Show Email
 				</label>

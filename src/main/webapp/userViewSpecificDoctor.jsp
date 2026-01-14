@@ -5,10 +5,8 @@
 	pageEncoding="ISO-8859-1"%>
 <%@include file="userSessionValidate.jsp"%>
 <%@page errorPage="userError.jsp"%>
-<<<<<<< HEAD
  <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
-=======
 <%
 String type = (String) request.getAttribute("specific");
 
@@ -28,21 +26,16 @@ while (rs1.next()) {
 
 ResultSet rs2 = pstmt.executeQuery();
 %>
->>>>>>> e06896c5d3b881a587992830e685134132707732
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<<<<<<< HEAD
 <title>Doctor(s) List</title>
-=======
 <title>Doctor View</title>
->>>>>>> e06896c5d3b881a587992830e685134132707732
 <link rel="icon" type="image/png" href="CSS/HMSTITLE.jpg">
 <meta charset="utf-8">
 <meta name="viewport"
 	content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<<<<<<< HEAD
 	
 	<link
       rel="stylesheet"
@@ -50,18 +43,15 @@ ResultSet rs2 = pstmt.executeQuery();
     />
 <style type="text/css">
 body {
-=======
 <style type="text/css">
 body {
 	margin: 0;
->>>>>>> e06896c5d3b881a587992830e685134132707732
 	background-color: white;
 	font-family: 'Poppins', sans-serif;
 }
 
 * {
 	box-sizing: border-box;
-<<<<<<< HEAD
 	margin: 0;
 	padding: 0;
 }
@@ -325,7 +315,6 @@ ul > li {
   background: dodgerblue;
 }
  
-=======
 }
 
 ul {
@@ -465,7 +454,6 @@ h3 {
 	color: black;
 }
 
->>>>>>> e06896c5d3b881a587992830e685134132707732
 .back button {
 	margin-top: 2%;
 	font-size: 16px;
@@ -477,12 +465,9 @@ h3 {
 	transition-duration: 0.4s;
 	cursor: pointer;
 	display: block;
-<<<<<<< HEAD
 	color: #445454;
-=======
 	color: black;
 	margin-left: auto;
->>>>>>> e06896c5d3b881a587992830e685134132707732
 	margin-right: auto;
 	margin-left: auto;
 	font-weight: 600;
@@ -493,9 +478,7 @@ h3 {
 	color:white;
 }
 
-<<<<<<< HEAD
  
-=======
 @media screen and (max-width: 600px) {
 	.scroll {
 		height: 480px;
@@ -514,12 +497,10 @@ h3 {
 		margin-left: -20px;
 	}
 }
->>>>>>> e06896c5d3b881a587992830e685134132707732
 </style>
 
 </head>
 <body>
-<<<<<<< HEAD
 	 <div class="header">
       <nav>
         <div class="logo">
@@ -631,7 +612,6 @@ h3 {
 				 	</tr>
 				 	
 	  </c:forEach>
-=======
 	<div class="topnav">
 		<ul>
 			<li><a href="usermodule.jsp">Home</a></li>
@@ -682,7 +662,6 @@ h3 {
 				}
 			}
 			%>
->>>>>>> e06896c5d3b881a587992830e685134132707732
 		</table>
 	</div>
 
@@ -691,7 +670,6 @@ h3 {
 			<button type="submit">Go Back</button>
 		</form>
 	</div>
-<<<<<<< HEAD
 	
 	
 	<script type="text/javascript">
@@ -809,7 +787,5 @@ h3 {
         }
       });
 	</script>
-=======
->>>>>>> e06896c5d3b881a587992830e685134132707732
 </body>
 </html>

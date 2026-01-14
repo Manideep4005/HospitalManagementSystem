@@ -4,7 +4,6 @@
 
 <!DOCTYPE html>
 <html>
-<<<<<<< HEAD
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -358,7 +357,6 @@
     </script>
   </body>
 </html>
-=======
 <head>
 
 <meta charset="utf-8">
@@ -557,4 +555,3 @@ img {
 	</div>
 </body>
 </html>
->>>>>>> e06896c5d3b881a587992830e685134132707732

@@ -6,10 +6,8 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1" errorPage="error.jsp"%>
 <%@include file="adminSessionValidate.jsp" %> 
-<<<<<<< HEAD
  
     <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
-=======
 <%
 String appointmentDate = request.getParameter("appdate");
 Date date = Date.valueOf(appointmentDate);
@@ -23,7 +21,6 @@ boolean status = rs.next();
 
 ResultSet rs1 = pstmt.executeQuery();
 %>
->>>>>>> e06896c5d3b881a587992830e685134132707732
 
 
 <!DOCTYPE html>
@@ -34,7 +31,6 @@ ResultSet rs1 = pstmt.executeQuery();
 <link rel="icon" type="image/png" href="CSS/HMSTITLE.jpg">
 <meta name="viewport"
 	content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-<<<<<<< HEAD
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 
 <style type="text/css">
@@ -302,7 +298,6 @@ body {
 	margin: 2px 0;
 }
 
-=======
 
 <style type="text/css">
 body {
@@ -473,7 +468,6 @@ h1 {
 
 
 
->>>>>>> e06896c5d3b881a587992830e685134132707732
 .back p {
 	text-align: center;
 }
@@ -496,7 +490,6 @@ h1 {
 </style>
 </head>
 <body>
-<<<<<<< HEAD
 	 <div class="header">
       <nav>
         <div class="logo">
@@ -624,7 +617,6 @@ h1 {
 	 		</c:choose>
      </div>
      
-=======
 	<div class="topnav">
 		<ul>
 			<li><a href="adminmodule.jsp">Home</a></li>
@@ -710,17 +702,13 @@ h1 {
 
 
 	</div>
->>>>>>> e06896c5d3b881a587992830e685134132707732
 
 	<div class="back">
 		<p>
 			<a href="adminAppointmentPage.jsp">Go Back</a>
 		</p>
 	</div>
-<<<<<<< HEAD
 	<script type="text/javascript" src="JS/script.js"></script>
-=======
 
->>>>>>> e06896c5d3b881a587992830e685134132707732
 </body>
 </html>

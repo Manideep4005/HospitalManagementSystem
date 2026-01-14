@@ -1,25 +1,19 @@
 <%@page import="java.util.Iterator"%>
-<<<<<<< HEAD
 <%@page import="com.hms.doctor.DoctorsBean"%>
-=======
 <%@page import="com.hms.admin.DoctorsBean"%>
->>>>>>> e06896c5d3b881a587992830e685134132707732
 <%@page import="java.util.ArrayList"%>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1" errorPage="error.jsp"%>
 <%@include file="adminSessionValidate.jsp"%>
-<<<<<<< HEAD
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 
  
  
-=======
 
 <%
 ArrayList<DoctorsBean> dlist = (ArrayList<DoctorsBean>) request.getAttribute("dlist");
 Iterator<DoctorsBean> itr = dlist.iterator();
 %>
->>>>>>> e06896c5d3b881a587992830e685134132707732
 <!DOCTYPE html>
 <html>
 <head>
@@ -29,26 +23,22 @@ Iterator<DoctorsBean> itr = dlist.iterator();
 <meta charset="utf-8" />
 <meta name="viewport"
 	content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-<<<<<<< HEAD
 <link rel="stylesheet"
 	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 
 <style type="text/css">
 body {
-=======
 
 
 <style type="text/css">
 body {
 	margin: 0;
->>>>>>> e06896c5d3b881a587992830e685134132707732
 	background-color: white;
 	font-family: 'Poppins', sans-serif;
 }
 
 * {
-<<<<<<< HEAD
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
@@ -378,7 +368,6 @@ body {
 }
 
 select {
-=======
 	box-sizing: border-box;
 }
 
@@ -555,7 +544,6 @@ h1 {
 
 select {
 	width: 60%;
->>>>>>> e06896c5d3b881a587992830e685134132707732
 	padding: 10px;
 	border-radius: 5px;
 	border: 2px solid #008cba;
@@ -571,11 +559,8 @@ select:focus {
 
 .nav button {
 	border: none;
-<<<<<<< HEAD
-=======
 	display: inline-block;
 	margin: 0;
->>>>>>> e06896c5d3b881a587992830e685134132707732
 	padding: 10px 15px;
 	border-radius: 3px;
 	width: 30%;
@@ -584,10 +569,7 @@ select:focus {
 	font-size: 15px;
 	transition-duration: 0.4s;
 	cursor: pointer;
-<<<<<<< HEAD
 	color:dodgerblue;
-=======
->>>>>>> e06896c5d3b881a587992830e685134132707732
 }
 
 .nav button:hover {
@@ -596,9 +578,7 @@ select:focus {
 	color: white;
 }
 
-<<<<<<< HEAD
 
-=======
 #back {
 	color: black;
 	border: none;
@@ -617,12 +597,10 @@ select:focus {
 #back:hover {
 	text-decoration: underline;
 }
->>>>>>> e06896c5d3b881a587992830e685134132707732
 </style>
 
 </head>
 <body>
-<<<<<<< HEAD
 		  <div class="header">
       <nav>
         <div class="logo">
@@ -728,7 +706,6 @@ select:focus {
 		<div class="nav">
 		<div class="login-container">
 			<form method="post" action="DisplaySpecificDoctorsServlet" class="form">
-=======
 	<div class="topnav">
 		<ul>
 			<li><a href="adminmodule.jsp">Home</a></li>
@@ -753,7 +730,6 @@ select:focus {
 	<div class="nav">
 		<div class="login-container">
 			<form method="post" action="adminViewSpecificDoctor.jsp" class="form">
->>>>>>> e06896c5d3b881a587992830e685134132707732
 				<select required name="doctorview">
 					<option value="" selected disabled>Department
 						Wise</option>
@@ -782,7 +758,6 @@ select:focus {
 			</form>
 		</div>
 	</div>
-<<<<<<< HEAD
         
         
 
@@ -836,7 +811,6 @@ select:focus {
 	    return false; 
     }
 	</script>
-=======
 
 	<div class="scroll">
 		<table>
@@ -880,6 +854,5 @@ select:focus {
 		</form>
 	</div>
 
->>>>>>> e06896c5d3b881a587992830e685134132707732
 </body>
 </html>

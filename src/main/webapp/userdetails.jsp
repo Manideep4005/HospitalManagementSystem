@@ -13,9 +13,7 @@
 <%@page errorPage="userError.jsp" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 
-<<<<<<< HEAD
  
-=======
 <%
 String id = (String) session.getAttribute("userSessionId");
 %>
@@ -68,23 +66,18 @@ String joined_date = formatter.format(join_date);
 
 
 %>
->>>>>>> e06896c5d3b881a587992830e685134132707732
 
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<<<<<<< HEAD
 <title>My Profile | HMS</title>
-=======
 <title>My Account | HMS</title>
->>>>>>> e06896c5d3b881a587992830e685134132707732
 <link rel="icon" type="image/png" href="CSS/HMSTITLE.jpg">
 <meta charset="utf-8">
 <meta name="viewport"
 	content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<<<<<<< HEAD
 <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -94,28 +87,22 @@ String joined_date = formatter.format(join_date);
 * {
 	margin: 0;
 	padding: 0;
-=======
 
 
 <style type="text/css">
 * {
->>>>>>> e06896c5d3b881a587992830e685134132707732
 	box-sizing: border-box;
 }
 
 body {
-<<<<<<< HEAD
-=======
 	margin: 0;
 	/* background-image: linear-gradient(to right, #808080, #778899);*/
->>>>>>> e06896c5d3b881a587992830e685134132707732
 	background-color: white;
 	font-family: 'Poppins', sans-serif;
 }
 
 
 
-<<<<<<< HEAD
 ul > li {
         list-style-type: none;
         list-style-position: inside;
@@ -386,7 +373,6 @@ ul > li {
 	background: dodgerblue;
 	font-weight: 500;
 	padding: 10px;
-=======
 ul {
 	list-style-type: none;
 	margin: 0;
@@ -544,17 +530,13 @@ th, td {
 	text-decoration: none;
 	color: dodgerblue;
 	font-weight: 500;
->>>>>>> e06896c5d3b881a587992830e685134132707732
 	transition-duration: .4s;
 }
 
 .btns a:hover {
-<<<<<<< HEAD
 	background: #168aaa;
-=======
 	color: #168aaa;
 	text-decoration: underline;
->>>>>>> e06896c5d3b881a587992830e685134132707732
 }
 
 #message {
@@ -567,7 +549,6 @@ th, td {
 
 </head>
 <body>
-<<<<<<< HEAD
  
 	
 	 <div class="header">
@@ -663,7 +644,6 @@ th, td {
     <div class="overlay"></div>
 
 	
-=======
 	<div class="topnav">
 		<ul>
 			<li><a href="usermodule.jsp">Home</a></li>
@@ -688,7 +668,6 @@ th, td {
 		<a href="user-updateprofile.jsp">Update Profile</a>
 		<a href="userChangePassword.jsp">Update Password</a>
 	</div>
->>>>>>> e06896c5d3b881a587992830e685134132707732
 	
 	
 	
@@ -700,7 +679,6 @@ th, td {
 		<p id="message">${userUpdateSucess }</p>
 	</c:if> 
 	
-<<<<<<< HEAD
 	
 	
 	<div class="details">
@@ -876,7 +854,6 @@ th, td {
           document.querySelector(".sub-menu").style.display = "none";
         }
       });
-=======
 	<div class="details">
 		<table>
 			<tr>
@@ -928,7 +905,6 @@ th, td {
 		let get = document.getElementById('message');
 		get.style.display = 'none';
 		}, 6000);
->>>>>>> e06896c5d3b881a587992830e685134132707732
 	</script>
 
 </body>

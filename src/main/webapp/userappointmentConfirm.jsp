@@ -61,11 +61,8 @@ if (gender.equals("male")) {
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<<<<<<< HEAD
 <title>Appointment Success | HMS</title>
-=======
 <title>Appointment Booked | HMS</title>
->>>>>>> e06896c5d3b881a587992830e685134132707732
 <meta charset="utf-8">
 <meta name="viewport"
 	content="width=device-width, initial-scale=1, shrink-to-fit=no">

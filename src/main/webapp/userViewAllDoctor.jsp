@@ -6,11 +6,9 @@
 	pageEncoding="ISO-8859-1"%>
 <%@include file="userSessionValidate.jsp"%>
 <%@page errorPage="userError.jsp"%>
-<<<<<<< HEAD
  <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
 
-=======
 <%
 String type = (String) session.getAttribute("specific");
 
@@ -24,21 +22,16 @@ boolean first = rs1.next();
 
 ResultSet rs2 = stmt.executeQuery("select * from doctor");
 %>
->>>>>>> e06896c5d3b881a587992830e685134132707732
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<<<<<<< HEAD
 <title>Doctor's List | HMS</title>
-=======
 <title>Find Doctor | HMS</title>
->>>>>>> e06896c5d3b881a587992830e685134132707732
 <link rel="icon" type="image/png" href="CSS/HMSTITLE.jpg">
 <meta charset="utf-8">
 <meta name="viewport"
 	content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<<<<<<< HEAD
 	<link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -323,7 +316,6 @@ font-family: 'Poppins', sans-serif;
 .doctor-container::-webkit-scrollbar-thumb {
   background: dodgerblue;
   cursor: pointer;
-=======
 <style type="text/css">
 body {
 	margin: 0;
@@ -471,7 +463,6 @@ td {
 h1 {
 	text-align: center;
 	color: #60FD00;
->>>>>>> e06896c5d3b881a587992830e685134132707732
 }
 
 .back button {
@@ -485,12 +476,9 @@ h1 {
 	transition-duration: 0.4s;
 	cursor: pointer;
 	display: block;
-<<<<<<< HEAD
 	color: #445454;
-=======
 	color: black;
 	margin-left: auto;
->>>>>>> e06896c5d3b881a587992830e685134132707732
 	margin-right: auto;
 	margin-left: auto;
 	font-weight: 600;
@@ -499,9 +487,7 @@ h1 {
 .back button:hover {
 	background-color: #445454;
 	color:white;
-<<<<<<< HEAD
 }	
-=======
 }
 
 @media screen and (max-width: 600px) {
@@ -522,12 +508,10 @@ h1 {
 		margin-left: -20px;
 	}
 }
->>>>>>> e06896c5d3b881a587992830e685134132707732
 </style>
 
 </head>
 <body>
-<<<<<<< HEAD
 	 <div class="header">
       <nav>
         <div class="logo">
@@ -643,7 +627,6 @@ h1 {
 	</div>
 	
 	
-=======
 	<div class="topnav">
 		<ul>
 			<li><a href="usermodule.jsp">Home</a></li>
@@ -697,13 +680,11 @@ h1 {
 		</table>
 	</div>
 
->>>>>>> e06896c5d3b881a587992830e685134132707732
 	<div class="back">
 		<form action="usermodule.jsp" method="post">
 			<button type="submit">Go Back</button>
 		</form>
 	</div>
-<<<<<<< HEAD
 	<script type="text/javascript">
 	
     function toggleMenu(event) {
@@ -820,7 +801,5 @@ h1 {
       });
 	
 	</script>
-=======
->>>>>>> e06896c5d3b881a587992830e685134132707732
 </body>
 </html>

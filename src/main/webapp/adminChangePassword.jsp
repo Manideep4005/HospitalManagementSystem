@@ -1,20 +1,16 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1" errorPage="error.jsp"%>
 <%@include file="adminSessionValidate.jsp"%>
-<<<<<<< HEAD
  
-=======
 <%
 Integer id = (Integer) session.getAttribute("adminAccountId");
 String userName = (String) session.getAttribute("adminName");
 %>
->>>>>>> e06896c5d3b881a587992830e685134132707732
 
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<<<<<<< HEAD
 <title>Change Admin Password | HMS</title>
 <link rel="icon" type="image/png" href="CSS/HMSTITLE.jpg">
 <meta name="viewport"
@@ -267,7 +263,6 @@ body {
 	border-radius: 10px;
 	padding: 20px;
  
-=======
 <title>Change Password Admin | HMS</title>
 <link rel="icon" type="image/png" href="CSS/HMSTITLE.jpg">
 <meta name="viewport"
@@ -399,12 +394,10 @@ a img {
 
 .button-icon {
 	font-size: 1.5em;
->>>>>>> e06896c5d3b881a587992830e685134132707732
 }
 
 label {
 	display: block;
-<<<<<<< HEAD
 	color: grey;
 	font-size: 16px;
 }
@@ -415,7 +408,6 @@ input {
 	padding: 12px;
 	display: inline-block;
 	border: 1px solid #808080;
-=======
 	font-size: 20px;
 	color: black;
 	font-weight: 200;
@@ -428,12 +420,10 @@ input[type=password] {
 	padding: 12px 20px;
 	display: inline-block;
 	border: 2px solid #808080;
->>>>>>> e06896c5d3b881a587992830e685134132707732
 	box-sizing: border-box;
 	outline: none;
 	border-radius: 5px;
 	background-color: transparent;
-<<<<<<< HEAD
 	font-size: 14px;
 	transition-duration: 0.34s ease;
 }
@@ -449,7 +439,6 @@ input:focus {
  
 button {
 	margin: 10px 0;
-=======
 	transition-duration: 0.34s ease;
 }
 
@@ -482,23 +471,19 @@ input[type=password]:focus {
 }
 
 button {
->>>>>>> e06896c5d3b881a587992830e685134132707732
 	background-color: #168AAa;
 	width: 100%;
 	color: white;
 	padding: 12px 10px;
-<<<<<<< HEAD
 	font-size: 15px;
 	border: none;
 	cursor: pointer;
-=======
 	font-size: 17px;
 	margin: 10px 0px;
 	border: none;
 	cursor: pointer;
 	margin-right: auto;
 	margin-left: auto;
->>>>>>> e06896c5d3b881a587992830e685134132707732
 	text-align: center;
 	display: block;
 	border-radius: 3px;
@@ -512,7 +497,6 @@ button:hover {
 }
 
 #demo {
-<<<<<<< HEAD
 	font-size: 14px;
 	color: red;
 }
@@ -520,7 +504,6 @@ button:hover {
  
 
  
-=======
 	margin: 0;
 	color: red;
 	padding-left: 2%;
@@ -560,14 +543,12 @@ button:hover {
 	color: white;
 	border-color: transparent;
 }
->>>>>>> e06896c5d3b881a587992830e685134132707732
 </style>
 
 
 
 </head>
 <body>
-<<<<<<< HEAD
 	<div class="header">
       <nav>
         <div class="logo">
@@ -676,7 +657,6 @@ button:hover {
 
 
 	
-=======
 	<div class="topnav">
 		<ul>
 			<li><a href="adminmodule.jsp">Home</a></li>
@@ -714,7 +694,6 @@ button:hover {
 			<button type="submit" class="">Back</button>
 		</form>
 	</div>
->>>>>>> e06896c5d3b881a587992830e685134132707732
 
 
 
@@ -722,7 +701,6 @@ button:hover {
 
 
 <script type="text/javascript">
-<<<<<<< HEAD
 
 function navigate(url) {
 	window.location.href = url;
@@ -767,7 +745,6 @@ function check() {
 
 
 <script type="text/javascript" src="JS/script.js"></script>
-=======
 	function check() {
 		var pass = document.getElementById('pass').value;
 		var repass = document.getElementById('repass').value;
@@ -794,7 +771,6 @@ function check() {
 </script>
 
 
->>>>>>> e06896c5d3b881a587992830e685134132707732
 
 
 
@@ -807,11 +783,8 @@ function check() {
 </body>
 </html>
 
-<<<<<<< HEAD
  
-=======
 
 <%
 session.removeAttribute("adminPasswordError");
 %>
->>>>>>> e06896c5d3b881a587992830e685134132707732

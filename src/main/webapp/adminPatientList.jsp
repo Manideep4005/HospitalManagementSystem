@@ -8,17 +8,13 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<<<<<<< HEAD
 <title>Patient View | Hospital Management System</title>
-=======
 <title>H M S</title>
->>>>>>> e06896c5d3b881a587992830e685134132707732
 <link rel="icon" type="image/png" href="CSS/HMSTITLE.jpg">
 
 <meta charset="utf-8" />
 <meta name="viewport"
 	content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-<<<<<<< HEAD
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 <style type="text/css">
 * {
@@ -278,7 +274,6 @@ body {
 	transform: translateY(-10px);
 	box-shadow: 2px 0px 2px 2px dodgerblue;
 	color: dodgerblue;
-=======
 
 <style type="text/css">
 * {
@@ -407,7 +402,6 @@ a img {
 .div_1:hover, .div_2:hover {
 	box-shadow: 0px 0px 0px 2px dodgerblue;
 	animation:  none;
->>>>>>> e06896c5d3b881a587992830e685134132707732
 }
 
 .div_1 a, .div_2 a {
@@ -420,7 +414,6 @@ a img {
 	font-weight: bold;
 }
 
-<<<<<<< HEAD
 .div_2 {
 	cursor: default;
 }
@@ -446,17 +439,13 @@ a img {
 	border: 1px solid transparent;
 }
 
-=======
->>>>>>> e06896c5d3b881a587992830e685134132707732
 @keyframes shape {
 	50% {
 		box-shadow: 12px 12px #008CBA, -6px -6px dodgerblue, 0 0 0 1px #008cba;
 	}
 }
 
-<<<<<<< HEAD
  
-=======
 @media screen and (max-width: 600px) {
 	.dropdown-content {
 		margin-left: -60px;
@@ -465,12 +454,10 @@ a img {
 		padding: 12px 10px;
 	}
 }
->>>>>>> e06896c5d3b881a587992830e685134132707732
 </style>
 
 </head>
 <body>
-<<<<<<< HEAD
 <div class="header">
       <nav>
         <div class="logo">
@@ -600,7 +587,6 @@ a img {
 		window.location.href = url;
 	}
 </script>
-=======
     <div class="topnav">
   <ul>
     <li><a href="adminmodule.jsp">Home</a></li>
@@ -636,7 +622,6 @@ a img {
         Department List
     </a>
 </div>
->>>>>>> e06896c5d3b881a587992830e685134132707732
 
 </body>
 </html>

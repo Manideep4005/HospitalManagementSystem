@@ -28,20 +28,17 @@ body {
 
 .header {
 	padding: 15px;
-<<<<<<< HEAD
 	box-shadow: 0 0 5px 1px gainsboro;
 }
 
 .header > img {
 	 max-width: 150px;
 	 margin-left: 10px;
-=======
 	box-shadow: 0 0 10px 1px gainsboro;
 }
 
 .header h2 {
 	text-align: center;
->>>>>>> e06896c5d3b881a587992830e685134132707732
 }
 
 .container {
@@ -228,11 +225,8 @@ to {
 <body onload="document.querySelector('#form').reset();">
 
 	<div class="header">
-<<<<<<< HEAD
 		<img alt="" src="CSS/MANI_HOSPITAL.png">
-=======
 		<h2>Hospital Management System</h2>
->>>>>>> e06896c5d3b881a587992830e685134132707732
 	</div>
 
 	<div class="container">
@@ -246,10 +240,7 @@ to {
 			</c:if>
 
 
-<<<<<<< HEAD
-=======
 			<input type="hidden" value="${adminIdValidateOtp }" name="adminId">
->>>>>>> e06896c5d3b881a587992830e685134132707732
 			<label>Password</label> <input type="password" id="pass"
 				onkeyup=" check()"> <label for="password">Re-Enter
 				Password</label> <input type="password" id="repass" name="password"

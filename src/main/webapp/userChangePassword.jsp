@@ -17,7 +17,6 @@ String userName = (String) session.getAttribute("currentUserName");
 <head>
 <meta charset="ISO-8859-1">
 <title>HMS | Welcome</title>
-<<<<<<< HEAD
 <meta charset="utf-8">
 <meta name="viewport"
 	content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -279,7 +278,6 @@ font-family: 'Poppins', sans-serif;
 }
 
 
-=======
 <link rel="icon" type="image/png" href="CSS/HMSTITLE.jpg">
 <meta charset="utf-8">
 <meta name="viewport"
@@ -414,7 +412,6 @@ a img {
 .button-icon {
 	font-size: 1.5em;
 }
->>>>>>> e06896c5d3b881a587992830e685134132707732
 
 label {
 	margin-top: 10px;
@@ -423,31 +420,24 @@ label {
 	font-weight: 200;
 }
 
-<<<<<<< HEAD
 input {
 	width: 100%;
 	margin: 8px 0;
 	padding: 12px 10px;
-=======
 input[type=password] {
 	width: 100%;
 	margin: 8px 0;
 	padding: 12px 20px;
->>>>>>> e06896c5d3b881a587992830e685134132707732
 	display: inline-block;
 	border: 2px solid #808080;
 	box-sizing: border-box;
 	outline: none;
 	border-radius: 5px;
-<<<<<<< HEAD
 	font-size: 18px;
-=======
->>>>>>> e06896c5d3b881a587992830e685134132707732
 	background-color: transparent;
 	transition: 0.34s ease;
 }
 
-<<<<<<< HEAD
 input:focus {
 	border: 2px solid #317AC7;
 }
@@ -461,7 +451,6 @@ border-color: transparent;
 .change form button {
 	padding: 12px 20px;
 	font-size: 18px;
-=======
 input[type=password]:focus {
 	border: 2px solid #317AC7;
 }
@@ -479,7 +468,6 @@ input[type=password]:focus {
 .change form button {
 	padding: 16px 32px;
 	font-size: 16px;
->>>>>>> e06896c5d3b881a587992830e685134132707732
 	background-color: transparent;
 	border: 2px solid #168AAa;
 	background-color: #168AaA;
@@ -487,7 +475,6 @@ input[type=password]:focus {
 	cursor: pointer;
 	transition-duration: 0.4s;
 	color: white;
-<<<<<<< HEAD
 	margin: 8px 0; 
 	display: block;
 	width: 100%;
@@ -498,7 +485,6 @@ input[type=password]:focus {
 
 .change form button:hover {
 	opacity: 1;
-=======
 	margin-top: 5px; 
 	display: block;
 	width: 50%;
@@ -509,7 +495,6 @@ input[type=password]:focus {
 .change form button:hover {
 	color: black;
 	background-color: white;
->>>>>>> e06896c5d3b881a587992830e685134132707732
 }
 
 #demo {
@@ -534,12 +519,10 @@ input[type=password]:focus {
 	padding-left: 0px;
 }
 
-<<<<<<< HEAD
  
 
 #back {
 	width: 200px;
-=======
 @media screen and (max-width: 600px) {
 	.change form {
 		width: 320px;
@@ -554,7 +537,6 @@ input[type=password]:focus {
 
 #back {
 	width: 100px;
->>>>>>> e06896c5d3b881a587992830e685134132707732
 	margin-top: 2%;
 	margin-left: auto;
 	margin-right: auto;
@@ -564,25 +546,19 @@ input[type=password]:focus {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-<<<<<<< HEAD
 	padding: 12px 20px;
 	font-size: 18px;
-=======
 	margin-left: auto;
 	padding: 16px 32px;
 	font-size: 16px;
->>>>>>> e06896c5d3b881a587992830e685134132707732
 	background-color: transparent;
 	border: 2px solid #008CBA;
 	font-weight: 600;
 	cursor: pointer;
-<<<<<<< HEAD
 	width: 100%;
 	transition-duration: 0.4s;
 	color: #008cba;
-=======
 	transition-duration: 0.4s;
->>>>>>> e06896c5d3b881a587992830e685134132707732
 }
 
 .btn:hover {
@@ -598,7 +574,6 @@ input[type=password]:focus {
 
 </style>
 
-<<<<<<< HEAD
 
 
 </head>
@@ -718,8 +693,6 @@ input[type=password]:focus {
 		</form>
 
 	</div>
-=======
->>>>>>> e06896c5d3b881a587992830e685134132707732
 <script type="text/javascript">
 	function check() {
 		var pass = document.getElementById('pass').value;
@@ -755,7 +728,6 @@ input[type=password]:focus {
 		
 		return final;
 	}
-<<<<<<< HEAD
 	
 	
     function toggleMenu(event) {
@@ -871,7 +843,6 @@ input[type=password]:focus {
         }
       });
 </script>
-=======
 </script>
 
 </head>
@@ -923,6 +894,5 @@ input[type=password]:focus {
 
 	</div>
 
->>>>>>> e06896c5d3b881a587992830e685134132707732
 </body>
 </html>

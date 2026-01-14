@@ -6,9 +6,7 @@
 <%@page errorPage="userError.jsp"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 
-<<<<<<< HEAD
  
-=======
 
 <%
 
@@ -43,7 +41,6 @@
 	
 
 %>
->>>>>>> e06896c5d3b881a587992830e685134132707732
 
 <!DOCTYPE html>
 <html>
@@ -54,14 +51,11 @@
 <meta name="viewport"
 	content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<<<<<<< HEAD
 <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-=======
 
->>>>>>> e06896c5d3b881a587992830e685134132707732
 
 <style type="text/css">
 * {
@@ -76,7 +70,6 @@ body {
 	font-family: 'Poppins', sans-serif;
 }
 
-<<<<<<< HEAD
  ul > li {
         list-style-type: none;
         list-style-position: inside;
@@ -313,7 +306,6 @@ body {
 		margin: 10px auto;
 		padding: 10px;
 	}
-=======
 ul {
 	list-style-type: none;
 	margin: 0;
@@ -430,7 +422,6 @@ a img {
 	margin: 0px auto;
 	padding: 15px;
 }
->>>>>>> e06896c5d3b881a587992830e685134132707732
 
 #userId {
 	cursor: not-allowed;
@@ -441,11 +432,8 @@ input, textarea, select, button {
 	display: block;
 	margin: 12px 0;
 	padding: 10px 12px;
-<<<<<<< HEAD
 	border: 1px solid gainsboro;
-=======
 	border: 1px solid dodgerblue;
->>>>>>> e06896c5d3b881a587992830e685134132707732
 	border-radius: 5px;
 	resize: none;
 	outline: none;
@@ -467,12 +455,9 @@ button {
 	background: white;
 	color:dodgerblue;
 	cursor: pointer;
-<<<<<<< HEAD
 	width: 40%;
 	display: block;
 	margin: auto;
-=======
->>>>>>> e06896c5d3b881a587992830e685134132707732
 }
 
 button:hover {
@@ -497,13 +482,11 @@ button:hover {
 }
 
 .back a:hover {
-<<<<<<< HEAD
 	transform: scale(1.05);
 }
 
 
  
-=======
 	transform: scale(1.2);
 }
 
@@ -523,13 +506,11 @@ button:hover {
 		width: 320px;
 	}
 }
->>>>>>> e06896c5d3b881a587992830e685134132707732
 </style>
 
 
 </head>
 <body>
-<<<<<<< HEAD
 	 <div class="header">
       <nav>
         <div class="logo">
@@ -637,7 +618,6 @@ button:hover {
 					placeholder="Enter First Name" value="${u.firstName }"> <input type="text" required
 					name="last_name" placeholder="Enter Last Name" value="${u.lastName }"> <input
 					type="email" required="required" name="email" value="${u.email }"
-=======
 	<div class="topnav">
 		<ul>
 			<li><a href="usermodule.jsp">Home</a></li>
@@ -667,12 +647,10 @@ button:hover {
 					placeholder="Enter First Name" value="<%=firstName%>"> <input type="text" required
 					name="last_name" placeholder="Enter Last Name" value="<%=lastName%>"> <input
 					type="email" required="required" name="email" value="<%=email%>"
->>>>>>> e06896c5d3b881a587992830e685134132707732
 					placeholder="Enter Email"> <select name="gender"
 					id="gender"
 					onchange="this.className=this.options[this.selectedIndex].className"
 					required="required">
-<<<<<<< HEAD
 					<option value="${u.gender }" selected="selected" hidden="">${u.gender }</option>
 					<option value="male" class="optionColor">Male</option>
 					<option value="female" class="optionColor">Female</option>
@@ -694,7 +672,6 @@ button:hover {
 
 		<div class="back">
 			<a id="back_btn" href="usermodule.jsp">Go Back</a>
-=======
 					<option value="<%=gender%>" selected="selected" hidden=""><%=gender%></option>
 					<option value="male" class="optionColor">Male</option>
 					<option value="female" class="optionColor">Female</option>
@@ -711,7 +688,6 @@ button:hover {
 
 		<div class="back">
 			<a id="back_btn" href="userdetails.jsp">Go Back</a>
->>>>>>> e06896c5d3b881a587992830e685134132707732
 		</div>
 	</div>
 
@@ -723,7 +699,6 @@ button:hover {
 		let get = document.getElementById('message');
 		get.style.display = 'none';
 		}, 6000);
-<<<<<<< HEAD
 	
 	
 	
@@ -839,8 +814,6 @@ button:hover {
           document.querySelector(".sub-menu").style.display = "none";
         }
       });
-=======
->>>>>>> e06896c5d3b881a587992830e685134132707732
 	</script>
 
 </body>

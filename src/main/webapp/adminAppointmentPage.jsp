@@ -18,7 +18,6 @@
 <meta charset="utf-8" />
 <meta name="viewport"
 	content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-<<<<<<< HEAD
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 <style type="text/css">
 * {
@@ -259,7 +258,6 @@ body {
 
 
 
-=======
 
 <style type="text/css">
 body {
@@ -479,7 +477,6 @@ button:hover {
 	font-size: 17px;
 	font-weight: bolder;
 }
->>>>>>> e06896c5d3b881a587992830e685134132707732
 
 #back {
 	color: black;
@@ -501,7 +498,6 @@ button:hover {
 }
 
 
-<<<<<<< HEAD
  .container {
  	
  	max-width: 300px;
@@ -555,7 +551,6 @@ select:focus, input:focus {
 
 .container > .app-box > form > button:hover {
 	background: dodgerblue;
-=======
  
 
 @media screen and (max-width:600px) {
@@ -569,13 +564,11 @@ select:focus, input:focus {
 		padding: 10px 5px;
 	}
 	
->>>>>>> e06896c5d3b881a587992830e685134132707732
 }
 
 </style>
 </head>
 <body>
-<<<<<<< HEAD
 	 <div class="header">
       <nav>
         <div class="logo">
@@ -712,7 +705,6 @@ select:focus, input:focus {
             </form>
         </div>
     </div>
-=======
 	<div class="topnav">
 		<ul>
 			<li><a href="adminmodule.jsp">Home</a></li>
@@ -763,7 +755,6 @@ select:focus, input:focus {
 			</form>
 		</div>
 	</div>
->>>>>>> e06896c5d3b881a587992830e685134132707732
 
 
 	<div class="back">
@@ -772,10 +763,7 @@ select:focus, input:focus {
 		</form>
 	</div>
 
-<<<<<<< HEAD
 	<script type="text/javascript" src="JS/script.js"></script>
-=======
 
->>>>>>> e06896c5d3b881a587992830e685134132707732
 </body>
 </html>

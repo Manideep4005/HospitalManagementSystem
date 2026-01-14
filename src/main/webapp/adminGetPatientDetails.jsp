@@ -5,10 +5,8 @@
     pageEncoding="ISO-8859-1" errorPage="error.jsp"%>
     
     <%@include file="adminSessionValidate.jsp" %> 
-<<<<<<< HEAD
     <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
    
-=======
     <%
     	
     	Integer id = Integer.parseInt(request.getParameter("patientid"));
@@ -27,13 +25,11 @@
     	ResultSet rs1 = pstmt.executeQuery();
     	
     %>
->>>>>>> e06896c5d3b881a587992830e685134132707732
     
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<<<<<<< HEAD
 <title>Patient Details | Hospital Management System</title>
 <link rel="icon" type="image/png" href="CSS/HMSTITLE.jpg">
 <meta name="viewport"
@@ -299,7 +295,6 @@ body {
  
 .container > .tabs > p > span {
 	font-weight: 600;
-=======
 <title>Patient Details | HMS</title>
 <link rel="icon" type="image/png" href="CSS/HMSTITLE.jpg">
 <meta name="viewport"
@@ -430,12 +425,10 @@ table {
 	box-shadow: 0px 0px 10px 1px #F6D7AF;
 	border-radius: 1%;
 	transition: 0.34s ease;
->>>>>>> e06896c5d3b881a587992830e685134132707732
 }
 
  
 
-<<<<<<< HEAD
 .container > .tabs   > p {
 	margin: 2px 0;
 }
@@ -466,7 +459,6 @@ table {
 	font-size: 18px;
 }
 
-=======
 th {
 	padding: 5px 10px;
 	font-size: 15px;
@@ -508,12 +500,10 @@ form button:hover {
 		padding: 10px 5px;
 	}
 }
->>>>>>> e06896c5d3b881a587992830e685134132707732
 </style>
 
 </head>
 <body>
-<<<<<<< HEAD
     <div class="header">
       <nav>
         <div class="logo">
@@ -642,7 +632,6 @@ form button:hover {
      </div>
      
      
-=======
     <div class="topnav">
   <ul>
     <li><a href="adminmodule.jsp">Home</a></li>
@@ -744,16 +733,12 @@ form button:hover {
             %>
     </div>
     
->>>>>>> e06896c5d3b881a587992830e685134132707732
 	<div class="back">
 		<form method="post" action="adminGetPatient.jsp">
 			<button type="submit">Go back</button>
 		</form>
 	</div>
-<<<<<<< HEAD
 	
 		<script type="text/javascript" src="JS/script.js"></script>
-=======
->>>>>>> e06896c5d3b881a587992830e685134132707732
 </body>
 </html>

@@ -9,12 +9,10 @@
 	pageEncoding="ISO-8859-1" errorPage="error.jsp"%>
 
 <%@include file="adminSessionValidate.jsp"%>
-<<<<<<< HEAD
 
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 
  
-=======
 <%
 ArrayList<AdminBean> aList = (ArrayList) session.getAttribute("adminList");
 AdminBean aBean = new AdminBean();
@@ -40,7 +38,6 @@ while (itr.hasNext()) {
 
 }
 %>
->>>>>>> e06896c5d3b881a587992830e685134132707732
 
 <!DOCTYPE html>
 <html>
@@ -50,15 +47,11 @@ while (itr.hasNext()) {
 <link rel="icon" type="image/png" href="CSS/HMSTITLE.jpg">
 <meta name="viewport"
 	content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-<<<<<<< HEAD
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-=======
->>>>>>> e06896c5d3b881a587992830e685134132707732
 
 <style type="text/css">
 * {
 	box-sizing: border-box;
-<<<<<<< HEAD
 	margin: 0;
 	padding: 0;
 }
@@ -296,7 +289,6 @@ body {
 
 .container {
 	width: 500px;
-=======
 }
 
 body {
@@ -407,12 +399,10 @@ a img {
 
 .container {
 	width: 520px;
->>>>>>> e06896c5d3b881a587992830e685134132707732
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-<<<<<<< HEAD
 	padding: 20px;
 	border-radius: 10px;
 	box-shadow: 0 0 1px 0px grey;
@@ -420,7 +410,6 @@ a img {
 
 form {
 	margin: 0px auto;
-=======
 	padding: 10px;
 	border-radius: 10px;
 	box-shadow: 0 0 5px 1px dodgerblue;
@@ -430,7 +419,6 @@ form {
 	width: 500px;
 	margin: 0px auto;
 	padding: 15px;
->>>>>>> e06896c5d3b881a587992830e685134132707732
 }
 
 #adminId {
@@ -443,11 +431,8 @@ input, textarea, select, button {
 	display: block;
 	margin: 12px 0;
 	padding: 10px 12px;
-<<<<<<< HEAD
 	border: 1px solid gainsboro;
-=======
 	border: 1px solid dodgerblue;
->>>>>>> e06896c5d3b881a587992830e685134132707732
 	border-radius: 5px;
 	resize: none;
 	outline: none;
@@ -464,11 +449,8 @@ input:focus, textarea:focus, select:focus {
 }
 
 button {
-<<<<<<< HEAD
 	border: 1px solid dodgerblue;
-=======
 	border: 2px solid dodgerblue;
->>>>>>> e06896c5d3b881a587992830e685134132707732
 	background: white;
 	color: dodgerblue;
 	cursor: pointer;
@@ -480,11 +462,8 @@ button:hover {
 }
 
 .back {
-<<<<<<< HEAD
 	width: 100px;
-=======
 	width: 200px;
->>>>>>> e06896c5d3b881a587992830e685134132707732
 	margin: 10px auto;
 }
 
@@ -500,11 +479,8 @@ button:hover {
 }
 
 .back a:hover {
-<<<<<<< HEAD
 	transform: scale(0.9);
-=======
 	transform: scale(1.2);
->>>>>>> e06896c5d3b881a587992830e685134132707732
 }
 
 @media screen and (max-width:600px) {
@@ -526,7 +502,6 @@ button:hover {
 
 </head>
 <body>
-<<<<<<< HEAD
 	<div class="header">
       <nav>
         <div class="logo">
@@ -621,7 +596,6 @@ button:hover {
 
  
 
-=======
 	<div class="topnav">
 		<ul>
 			<li><a href="adminmodule.jsp">Home</a></li>
@@ -636,13 +610,11 @@ button:hover {
 				</div></li>
 		</ul>
 	</div>
->>>>>>> e06896c5d3b881a587992830e685134132707732
 
 
 	<div class="container">
 		<div class="f">
 			<form action="AdminUpdateProfile" method="POST">
-<<<<<<< HEAD
 			
 			<c:forEach items="${adminList}" var="a">
 			
@@ -657,7 +629,6 @@ button:hover {
 					onchange="this.className=this.options[this.selectedIndex].className"
 					required="required">
 					<option value="${a.gender}" selected="selected" hidden="">${a.gender }</option>
-=======
 				<input type="hidden" name="adminId" required value="<%=aId%>"> <input
 					type="text" required disabled="disabled" value="<%=aId%>" id="adminId">
 				<input type="text" required name="first_name"
@@ -669,12 +640,10 @@ button:hover {
 					onchange="this.className=this.options[this.selectedIndex].className"
 					required="required">
 					<option value="<%=gender%>" selected="selected" hidden=""><%=gender%></option>
->>>>>>> e06896c5d3b881a587992830e685134132707732
 					<option value="male" class="optionColor">Male</option>
 					<option value="female" class="optionColor">Female</option>
 				</select>
 				<textarea rows="1" cols="0" required="required"
-<<<<<<< HEAD
 					placeholder="Enter your Address" name="address">${a.address }</textarea>
 				<input type="text" inputmode="numeric" name="contact"
 					pattern="[0-9]{10}" title="Enter Moible Number" maxlength="10"
@@ -683,14 +652,12 @@ button:hover {
 				<button type="submit">Update</button>
 				
 				</c:forEach>
-=======
 					placeholder="Enter your Address" name="address"><%=address%></textarea>
 				<input type="text" inputmode="numeric" name="contact"
 					pattern="[0-9]{10}" title="Enter Moible Number" maxlength="10"
 					placeholder="Enter Mobile Number" required value="<%=contact%>"
 					oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1');">
 				<button type="submit">Update</button>
->>>>>>> e06896c5d3b881a587992830e685134132707732
 			</form>
 		</div>
 
@@ -708,11 +675,8 @@ button:hover {
 		get.style.display = 'none';
 		}, 6000);
 	</script>
-<<<<<<< HEAD
 <script type="text/javascript" src="JS/script.js"></script>
-=======
 
->>>>>>> e06896c5d3b881a587992830e685134132707732
 
 </body>
 </html>

@@ -6,19 +6,14 @@
 <%@page import="java.util.Date"%>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
-<<<<<<< HEAD
-=======
 <%@ page session="true"%>
->>>>>>> e06896c5d3b881a587992830e685134132707732
 
 <%@include file="adminSessionValidate.jsp"%>
 
 
 
 
-<<<<<<< HEAD
  
-=======
 <%
 
 Integer adminId = (Integer)session.getAttribute("adminValidateId");
@@ -45,22 +40,17 @@ session.setAttribute("adminLogoutName", adminFirstName + " " + adminLastName);
 session.setAttribute("adminAccountId", new Integer(aId));
 session.setAttribute("adminName", adminFirstName + " " + adminLastName);
 %>
->>>>>>> e06896c5d3b881a587992830e685134132707732
 
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="ISO-8859-1" />
-<<<<<<< HEAD
 <title>Admin Dashboard | Hospital Management System</title>
-=======
 <title>Welcome | Hospital Management System</title>
->>>>>>> e06896c5d3b881a587992830e685134132707732
 <link rel="icon" type="image/png" href="CSS/HMSTITLE.jpg" />
 <meta charset="utf-8" />
 <meta name="viewport"
 	content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-<<<<<<< HEAD
 <link rel="stylesheet"
 	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
@@ -73,7 +63,6 @@ session.setAttribute("adminName", adminFirstName + " " + adminLastName);
 
 body {
 	font-family: 'Poppins', sans-serif;
-=======
 
 <style type="text/css">
 * {
@@ -83,12 +72,10 @@ body {
 
 body {
 	margin: 0;
->>>>>>> e06896c5d3b881a587992830e685134132707732
 	/*background-image: linear-gradient(to right, #eacda3 , #d6ae7b);*/
 	background-color: white;
 }
 
-<<<<<<< HEAD
   ul > li {
         list-style-type: none;
         list-style-position: inside;
@@ -433,7 +420,6 @@ body {
 
 
 
-=======
 .header {
 	background: white;
 }
@@ -644,7 +630,6 @@ a img {
 		min-width: 100px;
 	}
 }
->>>>>>> e06896c5d3b881a587992830e685134132707732
 </style>
 
 
@@ -652,7 +637,6 @@ a img {
 </head>
 <body>
 
-<<<<<<< HEAD
 
 	  <div class="header">
       <nav>
@@ -756,7 +740,6 @@ a img {
 
 <!-- 
  
-=======
 	<div class="topnav">
 
 		<div class="header">
@@ -778,92 +761,69 @@ a img {
 		</ul>
 	</div>
 
->>>>>>> e06896c5d3b881a587992830e685134132707732
 	<div class="container">
 		<div class="item" >
 			<p>Doctors List</p>
 			<form action="DisplayAllDoctorsServlet" method="post">
-<<<<<<< HEAD
 				<button type="submit">Click Here</button>
-=======
 				<button type="submit">click here</button>
->>>>>>> e06896c5d3b881a587992830e685134132707732
 			</form>
 		</div>
 
 		<div class="item">
-<<<<<<< HEAD
 			<p>Admin's & User's</p>
 			 
 				<button type="submit" id="admin-user-btn">Click Here</button>
 			 
-=======
 			<p>Admins & Users</p>
 			<form action="adminAdministration.jsp" method="post">
 				<button type="submit">click here</button>
 			</form>
->>>>>>> e06896c5d3b881a587992830e685134132707732
 		</div>
 
 		<div class="item">
 			<p>Patients List</p>
 			<form action="adminPatientList.jsp" method="post">
-<<<<<<< HEAD
 				<button type="submit">Click Here</button>
-=======
 				<button type="submit">click here</button>
->>>>>>> e06896c5d3b881a587992830e685134132707732
 			</form>
 		</div>
 
 		<div class="item">
 			<p>Appointments</p>
 			<form action="adminAppointmentPage.jsp" method="post">
-<<<<<<< HEAD
 				<button type="submit">Click Here</button>
-=======
 				<button type="submit">click here</button>
->>>>>>> e06896c5d3b881a587992830e685134132707732
 			</form>
 		</div>
 
 		<div class="item">
 			<p>Register Doctor</p>
 			<form action="doctorregister.jsp" method="post">
-<<<<<<< HEAD
 				<button type="submit">Click Here</button>
-=======
 				<button type="submit">click here</button>
->>>>>>> e06896c5d3b881a587992830e685134132707732
 			</form>
 		</div>
 
 		<div class="item">
 			<p>Delete Doctor</p>
 			<form action="adminDeleteDoctor.jsp" method="post">
-<<<<<<< HEAD
 				<button type="submit">Click Here</button>
-=======
 				<button type="submit">click here</button>
->>>>>>> e06896c5d3b881a587992830e685134132707732
 			</form>
 		</div>
 
 		<div class="item">
 			<p>Search Patient</p>
 			<form action="adminSearchPatient.jsp" method="post">
-<<<<<<< HEAD
 				<button type="submit">Click Here</button>
-=======
 				<button type="submit">click here</button>
->>>>>>> e06896c5d3b881a587992830e685134132707732
 			</form>
 		</div>
 
 		<div class="item">
 			<p>Patient Details</p>
 			<form action="adminGetPatient.jsp" method="post">
-<<<<<<< HEAD
 				<button type="submit">Click Here</button>
 			</form>
 		</div>
@@ -960,11 +920,9 @@ a img {
 
 
 	</script>
-=======
 				<button type="submit">click here</button>
 			</form>
 		</div>
 	</div>
->>>>>>> e06896c5d3b881a587992830e685134132707732
 </body>
 </html>

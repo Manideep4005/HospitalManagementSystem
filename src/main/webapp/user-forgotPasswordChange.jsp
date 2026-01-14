@@ -1,16 +1,13 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
-<<<<<<< HEAD
  
-=======
 
 <%
 
 	Integer userId = (Integer)session.getAttribute("userIdValidateOtp");
 
 %>
->>>>>>> e06896c5d3b881a587992830e685134132707732
 
 <!DOCTYPE html>
 <html>
@@ -39,14 +36,11 @@ body {
 	box-shadow: 0 0 10px 1px gainsboro;
 }
 
-<<<<<<< HEAD
 .header  > img {
 	max-width: 150px;
 	margin-left: 10px;
-=======
 .header h2 {
 	text-align: center;
->>>>>>> e06896c5d3b881a587992830e685134132707732
 }
 
 .container {
@@ -176,11 +170,8 @@ body {
 <body onload="document.querySelector('#form').reset();">
 
 	<div class="header">
-<<<<<<< HEAD
 		<img src="CSS/MANI_HOSPITAL.png">
-=======
 		<h2>Hospital Management System</h2>
->>>>>>> e06896c5d3b881a587992830e685134132707732
 	</div>
 
 	<div class="container"> 
